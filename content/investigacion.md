@@ -1,0 +1,86 @@
+---
+title: "Investigación del GGSR"
+slug: "investigacion"
+date: 2024-04-16
+toc: true
+---
+
+## Solicitud de Acreditación ante la Secretaría de Ciencia y Tecnología, Universidad Nacional de Rosario.
+
+#### La Georreferenciación como herramienta social. El celular como el instrumento más difundido.
+
+Duración: Cuatrienal (Años 2024 a 2027)\
+[Presentación Proyecto](/investigacion/01-80020230200122UR-PresentacionProyecto.pdf)\
+[Plan de Trabajo](/investigacion/02-80020230200122UR-Plandetrabajo-ACRE-2024.pdf)
+
+<!-- -->
+
+#### [Colocalización - AGGO](/investigacion/Colocalizacion-AGGO.pdf)
+Informe preliminar de las tareas de medición y cálculo efectuados por el GGSR, sobre la red planimétrica diseñada para la determinación de la posición relativa (colocalización) entre los instrumentos de medición del Observatorio Geodésico Argentino-Alemán.
+
+## Proyectos de investigación finalizados
+
+### 2020 a 2023
+
+#### [Georreferenciación: Fundamentos, técnicas, aplicaciones y enseñanza y difusión de conocimientos necesarios para su correcta utilización.](/investigacion/2020-2023_PresentacionProyecto.pdf)
+
+Código: 80020190300168UR - Acreditado por la Universidad Nacional de Rosario (UNR), R.C.S. Nº 125/2021.\
+Grupo de Trabajo: Brunini, C. - Calvo, P. - Cornaglia, L. (Co-Directora) - Mangiaterra, A. - Noguera, G. (Director) - Pestarini, S. - Rodriguez, R.
+
+### 2018 a 2019
+
+#### [Georreferenciación 2018 - Parte 2](/investigacion/Georreferenciacion2018-Parte2.pdf)
+
+Código: 1ING627 - Acreditado por la Universidad Nacional de Rosario (UNR), R.C.S. Nº 1050/2018.\
+Grupo de Trabajo: Brunini, C. - Calvo, J.M. - Calvo, P. - Cornaglia, L. - Mangiaterra, A. (Co-Director) - Noguera, G. (Director) - Pestarini, S. - Rodriguez, R.\
+[Informe final](/investigacion/ING627_InformeFinal.pdf)
+
+### 2014 a 2018
+
+#### [Georreferenciación 2018](/investigacion/ING455.pdf)
+
+Código: 1ING455 - Acreditado por la Universidad Nacional de Rosario (UNR), R.C.S. Nº 886/2014.\
+Grupo de Trabajo: Acosta, G. Brunini, C. - Calvo, P. - Cornaglia, L. - Mangiaterra, A. (Co-Director) - Noguera, G. (Director) - Pagani, G. - Pestarini, S. - Rodriguez, R.\
+[Informe final](/investigacion/ING455_InformeFinal.pdf)
+
+<!-- -->
+
+#### Determinación Cota Estación Permanente UNRO
+[Informe final](/investigacion/GGSR_CotaEPUNRO.pdf)
+
+### 2011 a 2012
+
+#### Significación de la Georreferenciación en la enseñanza de la Geografía
+Acreditado por la Secretaría de Estado de Ciencia, Tecnología e Innovación de la Provincia de Santa Fe.
+
+### 2010 a 2013
+
+#### Del Sistema de Posicionamiento Global GPS al Sistema Global de Navegación Satelital GNSS. Investigación sobre su desarrollo y prospectiva
+Código: ING302 - Acreditado por UNR, Resolución Consejo Superior (R.C.S.) Nº 1102/2010.\
+Grupo de Trabajo: Balbarani, S. - Calvo, P. - Huerta, E. - Mangiaterra, A. (Director) - Noguera, G. - Pestarini, S.
+
+### 2009 a 2010
+
+#### Infraestructura de Estaciones Terrestres para la Georreferenciación en provincia de Santa Fe mediante Posicionamiento Satelital
+Acreditado por la Provincia de Santa Fe.
+
+### 2006 a 2009
+
+#### Georreferenciación
+Código: ING155 - Acreditado por UNR, Resolución Consejo Superior (R.C.S.) Nº 776/2006.\
+Grupo de Trabajo: Balbarani, S. - Calvo, P. - Cerro, V. - Huerta, E. - Mangiaterra, A. (Director) - Noguera, G.
+
+### 2003 a 2005
+
+#### Optimización de la aplicación de GPS con frecuencia L1 y código C/A
+Código: ING50 - Acreditado por UNR, Resolución Consejo Superior (R.C.S.) Nº 156/2003.\
+Grupo de Trabajo: Calvo, P. - Brunini, C. (Co-director) - Huerta, E. - Jimenez, B. - Mangiaterra, A. (Director) - Molinari, R. - Noguera, G. - Rubbo, I. - Scapini, J. - Vega, Y.
+
+
+### 1997 a 2002
+
+#### Estación Permanente GPS
+
+### 1993 a 1996
+
+#### Estudio Geodésico en una Falla de Llanura (Latitud 32º 40’ S y Longitud 61º 55’ W), Cañada San Antonio, en el límite entre las provincias de Santa Fe y Córdoba

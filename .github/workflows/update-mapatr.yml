@@ -1,0 +1,35 @@
+name: Actualizar GeoJSON del mapa NTRIP
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 06:00 UTC diario (03:00 ART)
+  workflow_dispatch:      # ejecución manual desde GitHub Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generar GeoJSON
+        run: python tools/mapatr/fetch_sourcetables.py
+
+      - name: Commit y push si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add static/mapatr/SIRGAS.geojson \
+                  static/mapatr/IGN.geojson \
+                  static/mapatr/REGNA.geojson \
+                  static/mapatr/IBGE.geojson \
+                  static/mapatr/IGS.geojson
+          git diff --cached --quiet || \
+            (git commit -m "chore: actualizar GeoJSON casters NTRIP" && git push)

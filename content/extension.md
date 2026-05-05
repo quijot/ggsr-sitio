@@ -1,0 +1,80 @@
+---
+title: "Actividades de extensión"
+slug: "extension"
+date: 2018-03-08
+toc: true
+---
+
+## Taller en Posicionamiento GNSS en Tiempo Real[^1]
+
+### Sistema de Referencia Geocéntrico para las Américas SIRGAS 2017
+
+En el marco del Simposio SIRGAS 2017, el Grupo de Trabajo 2 de SIRGAS: 'SIRGAS en el ámbito nacional', organizó el **Taller en Posicionamiento GNSS en Tiempo Real**, que se desarrolló desde el 22 al 24 de Noviembre de 2017, en la ciudad de Mendoza, Argentina.
+
+Cincuenta (50) fueron los asistentes al Taller, procedentes de distintos países: Argentina, Brasil, Chile, Colombia, Costa Rica, República Dominicana, Ecuador, Guatemala, Panamá, España, Uruguay y Venezuela.
+
+El Taller fue dictado por **Roberto Pérez-Rodino** (Universidad de la República, Montevideo, Uruguay), Director del Grupo de Trabajo 2 de SIRGAS, **María Fernanda Camisay** (Universidad Juan Agustín Maza, Mendoza, Argentina), **Gustavo Noguera** (Universidad Nacional de Rosario, Argentina), y **Manuel Hernández-Pajares** (Universidad Politécnica de Cataluña, Barcelona, España).
+
+Los principales temas del Taller fueron:
+
+- Técnicas y Sistemas de Posicionamiento en Tiempo Real (RTK, NetRTK, PPP).
+- Infraestructura nacional de posicionamiento en Tiempo Real.
+- Cáster y manejo de transmisión en Tiempo Real.
+- Software NTRIP y otros asociados (BNC, RTKLib, etc.)
+- Fundamentos teóricos del Proyecto Europeo AUDITOR (Mejora en el Sistema de Aumentación GNSS basado en tierra para Servicios de Agricultura de Precisión), enfatizando en la generación de productos ionosféricos confiables para el cálculo de correcciones en Tiempo Real.
+
+Prácticas realizadas:
+
+- Medidas de campo en Tiempo Real.
+- Configuración y conectividad en Tiempo Real.
+- Cálculos en gabinete.
+
+[^1]: Extraído y traducido a partir de la publicación [SIRGAS2017_Report.pdf](/extension/SIRGAS2017_Report.pdf) sita en <http://www.sirgas.org/es/sirgas-symposia/>.
+
+------------------------------------------------------------------------
+
+## Webinario 3: Posicionamiento GNSS en tiempo real y PPP[^2]
+
+### Serie de seminarios web realizados por la [FADA](http://www.agrimensores.org.ar/) con el apoyo del [Instituto Lincoln de Políticas de Suelo](http://www.lincolninst.edu/aboutlincoln/america-latina-y-el-caribe/)
+
+Fecha
+: 27/03/2012
+
+Hora
+: 20:00hs
+
+Disertante
+: Agrim. Gustavo Noguera (GGSR)
+
+Temario
+: Fundamentos del posicionamiento satelital en tiempo real, diferentes modalidades. Descripción del protocolo NTRIP y del estándar RTCM. Transmisión de datos GPS y correcciones por Internet. Aplicaciones, precisiones alcanzables, limitantes. Fundamentos del posicionamiento puntual preciso usando código y fase. Efemérides precisas y correcciones a los relojes de los satélites. Compatibilidad de resultados con marco de referencia POSGAR. Aplicaciones, precisiones alcanzables, limitantes.
+
+Difusión
+:   [Webinario3.pdf](/extension/Webinario3.pdf)
+
+[^2]: Posicionamiento Puntual Preciso
+
+------------------------------------------------------------------------
+
+## Charla: GPS en Tiempo Real utilizando Internet
+
+Fecha
+: Miércoles 15/06/2011
+
+Hora
+: 18:00hs
+
+Lugar
+: Aula 23 - Av. Pellegrini 250, FCEIyA, UNR - Rosario
+
+Disertante
+: Agrim. Gustavo Noguera\
+  Grupo de Geodesia Satelital Rosario\
+  Departamento de Geotopocartografía\
+  Escuela de Agrimensura
+
+Resumen
+: Existen diversas metodologías de medición que permiten obtener coordenadas en un sistema global utilizando GPS. Muchas aplicaciones requieren determinar las coordenadas en forma instantánea y con mejores precisiones que las que puede otorgar un receptor del tipo de los llamados navegadores. Esta modalidad es conocida como "tiempo real" (RT), y en este caso es necesario transmitir correcciones y observaciones desde una estación base al receptor que opera el usuario. En la actualidad esta transmisión puede realizarse utilizando Internet mediante el protocolo denominado NTRIP (Networked Transport of RTCM via Internet Protocol). De esta manera el usuario de GPS, tanto para el caso de navegadores como para receptores de mejor precisión, obtiene las correcciones generadas en Estaciones Permanentes GPS, como la que funciona en la Facultad de Ciencias Exactas, Ingeniería y Agrimensura de la UNR. Estas correcciones mejoran sustancialmente la precisión en las coordenadas obtenidas, permitiendo aplicaciones de diversos tipos: agrimensura, sistemas de información geográfica, obras de ingeniería, agricultura de precisión, transporte, etc., garantizando la georreferenciación de los resultados obtenidos. En la charla se describen los fundamentos de esta metodología y la forma en que se puede acceder a las correcciones.
+
+Descarga
+: Descargue la [presentación en formato PDF](/extension/GPSenTiempoReal.pdf).

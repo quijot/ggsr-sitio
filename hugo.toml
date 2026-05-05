@@ -1,0 +1,53 @@
+baseURL = "https://ggsr.github.io/"
+locale = "es-AR"
+title = "GGSR"
+defaultContentLanguage = "es"
+
+disableKinds = ["taxonomy", "term"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+    ordered = false
+
+[params]
+  footer = 'Grupo de Geodesia Satelital de Rosario &middot; <a href="https://www.fceia.unr.edu.ar/">FCEIA</a> &middot; UNR'
+
+[[menus.main]]
+  name = "Investigación"
+  url = "/investigacion/"
+  weight = 20
+
+[[menus.main]]
+  name = "Publicaciones"
+  url = "/publicaciones/"
+  weight = 30
+
+[[menus.main]]
+  name = "Cursos"
+  url = "/cursos/"
+  weight = 40
+
+[[menus.main]]
+  name = "Extensión"
+  url = "/extension/"
+  weight = 50
+
+[[menus.main]]
+  name = "Historia"
+  url = "/historia/"
+  weight = 60
+
+[[menus.main]]
+  name = "Software"
+  url = "/software/"
+  weight = 70
+
+[[menus.main]]
+  name = "Contacto"
+  url = "/contacto/"
+  weight = 80

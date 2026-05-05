@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="ggsr-hero">
+  <div class="container">
+    {{ .Content }}
+  </div>
+</section>
+
+<section class="ggsr-cards">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="ggsr-card">
+          <h3>Estaciones Permanentes</h3>
+          <p>Red RAMSAC: UNRO (Rosario), EPGZ (Gálvez), EPSF (Santa Fe), PRNA (Paraná), RUFI (Rufino).</p>
+          <a href="/ep/" class="card-link">Ver estaciones →</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="ggsr-card">
+          <h3>Software y Servicio PPP</h3>
+          <p>Calcule coordenadas POSGAR07 desde archivos RINEX. Herramientas desarrolladas por el GGSR.</p>
+          <a href="/software/" class="card-link">Ver software →</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="ggsr-card">
+          <h3>Investigación y Publicaciones</h3>
+          <p>Proyectos de investigación activos y archivo histórico de publicaciones del grupo.</p>
+          <a href="/investigacion/" class="card-link">Ver investigación →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

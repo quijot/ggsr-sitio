@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container mt-4">
+  <article class="ggsr-content">
+    {{ if not .Params.notitle }}<h1>{{ .Title }}</h1>{{ end }}
+
+    <div class="d-lg-flex flex-lg-row-reverse align-items-start">
+      {{ if .Params.toc }}
+      <!-- El TOC: col-lg-4 para que no sea tan ancho y deje aire -->
+      <!-- <div class="alert alert-primary ms-lg-4 my-lg-4 col-lg-4 sticky-lg-top" style="top: 1rem;"> -->
+      <div class="ggsr-card ms-lg-2 my-lg-4 col-lg-4 sticky-lg-top" style="top: 1rem;">
+        <h4>Índice de contenido</h4>
+        {{ .TableOfContents }}
+      </div>
+      {{ end }}
+
+      <!-- El contenido de Hugo -->
+      <div class="flex-grow-1 w-100">
+        {{ .Content }}
+      </div>
+    </div>
+  </article>
+</div>
+{{ end }}
