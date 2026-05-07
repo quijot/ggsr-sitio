@@ -22,7 +22,7 @@ OUTPUT_DIR = pathlib.Path(__file__).parent.parent.parent / "static" / "mapatr"
 TIMEOUT = 20  # segundos por caster
 
 CASTERS = [
-    {"name": "SIRGAS", "url": "http://200.3.123.65:2101/",          "color": "orange",       "align": "right", "bline": "middle"},
+    # {"name": "SIRGAS", "url": "http://200.3.123.65:2101/",          "color": "orange",       "align": "right", "bline": "middle"},
     {"name": "IGN",    "url": "http://ntrip.ign.gob.ar:2101/",      "color": "blue",         "align": "left",  "bline": "baseline"},
     {"name": "REGNA",  "url": "http://201.217.132.178:2101/",       "color": "LightSkyBlue", "align": "left",  "bline": "baseline"},
     {"name": "IBGE",   "url": "http://gps-ntrip.ibge.gov.br:2101/", "color": "green",        "align": "left",  "bline": "baseline"},
