@@ -10,58 +10,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "25MA-v3.0",
-        "identifier": "25 de Mayo, La Pampa (25MA-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-37.77, -67.71",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.71,
-          -37.77
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "25MA-v3.2",
-        "identifier": "25 de Mayo, La Pampa (25MA-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-37.77, -67.71",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.71,
-          -37.77
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "3ARO-v3.0",
         "identifier": "Tres Arroyos, Buenos Aires (3ARO-v3.0)",
         "data_format": "RTCM 3.0",
@@ -420,58 +368,6 @@
         "coordinates": [
           -71.28,
           -41.13
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BELG-v3.0",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BELG-v3.2",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
         ]
       }
     },
@@ -888,6 +784,32 @@
         "coordinates": [
           -66.14,
           -39.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CHLT-v3.0",
+        "identifier": "El Chalten, Santa Cruz (CHLT-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1007(10),1013(10)",
+        "carrier": "L2",
+        "nav_system": "GPS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-49.34, -72.89",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.89,
+          -49.34
         ]
       }
     },
@@ -1596,6 +1518,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "IGM1-v3.0",
+        "identifier": "CABA IGN (IGM1-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-34.57, -58.44",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44,
+          -34.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "IGM1-v3.3",
         "identifier": "CABA IGN (IGM1-v3.3)",
         "data_format": "RTCM 3.3",
@@ -2272,32 +2220,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "MZAE-v3.0",
-        "identifier": "Santa Rosa, Mendoza (MZAE-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1007(10),1013(10)",
-        "carrier": "L2",
-        "nav_system": "GPS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-33.25, -68.15",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.15,
-          -33.25
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "MZAL-v3.0",
         "identifier": "Lavalle, Mendoza (MZAL-v3.0)",
         "data_format": "RTCM 3.0",
@@ -2344,6 +2266,32 @@
         "coordinates": [
           -68.59,
           -32.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MZAR-v3.0",
+        "identifier": "Rivadavia, Mendoza (MZAR-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1007(10),1013(10)",
+        "carrier": "L2",
+        "nav_system": "GPS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-33.2, -68.47",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.47,
+          -33.2
         ]
       }
     },
@@ -2630,58 +2578,6 @@
         "coordinates": [
           -65.26,
           -35.11
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "OAFA-v3.0",
-        "identifier": "Observatorio Astronomico Felix Aguilar, San Juan (OAFA-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-31.5, -68.62",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.62,
-          -31.5
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "OAFA-v3.2",
-        "identifier": "Observatorio Astronomico Felix Aguilar, San Juan (OAFA-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1033(10),1077(1),1087(1),1097(1),1127(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-31.5, -68.62",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.62,
-          -31.5
         ]
       }
     },
@@ -3000,6 +2896,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PEJ1-v3.0",
+        "identifier": "Pehuajo, Buenos Aires (PEJ1-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-35.8, -61.9",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.9,
+          -35.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "PELU-v3.0",
         "identifier": "Pedro Luro, Buenos Aires (PELU-v3.0)",
         "data_format": "RTCM 3.0",
@@ -3124,32 +3046,6 @@
         "coordinates": [
           -70.07,
           -40.05
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "PRCV-v3.0",
-        "identifier": "Cascavel, Parana (PRCV-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-30.25, -57.6",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.6,
-          -30.25
         ]
       }
     },
@@ -3520,12 +3416,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RIO2-v3.2",
-        "identifier": "Rio Grande, Tierra del Fuego (RIO2-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(1),1097(1),1127(1)",
+        "name": "RIO2-v3.0",
+        "identifier": "Rio Grande, Tierra del Fuego (RIO2-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
+        "nav_system": "GPS+GLO",
         "network": "RAMSAC",
         "country": "ARG",
         "coordinates": "-53.79, -67.75",
@@ -4014,6 +3910,58 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "SMDM-v3.0",
+        "identifier": "San Miguel del Monte, Buenos Aires (SMDM-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-35.44, -58.8",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8,
+          -35.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMDM-v3.2",
+        "identifier": "San Miguel del Monte, Buenos Aires (SMDM-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1074(1),1084(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-35.44, -58.8",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8,
+          -35.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "SRLP-v3.0",
         "identifier": "Santa Rosa, La Pampa (SRLP-v3.0)",
         "data_format": "RTCM 3.0",
@@ -4112,6 +4060,32 @@
         "coordinates": [
           -62.65,
           -29.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SVIC-v3.0",
+        "identifier": "San Vicente, Misiones (SVIC-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-26.99, -54.49",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.49,
+          -26.99
         ]
       }
     },
