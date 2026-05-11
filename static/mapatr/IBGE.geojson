@@ -2714,32 +2714,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PRMA0",
-        "identifier": "Maringa",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-23.41, -51.94",
-        "solution": "single base",
-        "misc": "RBMC-PRMA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.94,
-          -23.41
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "PRUR0",
         "identifier": "Umuarama",
         "data_format": "RTCM 3.0",
@@ -3072,32 +3046,6 @@
         "coordinates": [
           -52.42,
           -31.8
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "RSPF0",
-        "identifier": "Passo Fundo",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-28.23, -52.39",
-        "solution": "single base",
-        "misc": "RBMC-RSPF",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.39,
-          -28.23
         ]
       }
     },
