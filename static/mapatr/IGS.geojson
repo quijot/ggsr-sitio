@@ -3036,7 +3036,33 @@
         "country": "AUT",
         "coordinates": "47.07, 15.49",
         "solution": "single base",
-        "misc": "euref-ip.net:2101/GRAZ00AUT0(1)",
+        "misc": "APOS",
+        "color": "red",
+        "align": "left",
+        "bline": "middle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.49,
+          47.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GRZ200AUT0",
+        "identifier": "Graz",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(60),1008(60),1019,1020,1033(60),1042,1045,1046,1077(1),1087(1),1097(1),1127(1),1230(60)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "IGS",
+        "country": "AUT",
+        "coordinates": "47.07, 15.49",
+        "solution": "single base",
+        "misc": "APOS",
         "color": "red",
         "align": "left",
         "bline": "middle"
