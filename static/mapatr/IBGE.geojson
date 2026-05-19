@@ -634,6 +634,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PAAR1",
+        "identifier": "Altamira - UFPA",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-3.21, -52.21",
+        "solution": "single base",
+        "misc": "RBMC-PAAR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.21,
+          -3.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "UFPR1",
         "identifier": "Curitiba",
         "data_format": "RTCM 3.0",
@@ -680,6 +706,32 @@
         "coordinates": [
           -35.21,
           -5.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BAVC1",
+        "identifier": "Vitoria da Conquista",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-14.89, -40.8",
+        "solution": "single base",
+        "misc": "RBMC-BAVC",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.8,
+          -14.89
         ]
       }
     },
@@ -836,32 +888,6 @@
         "coordinates": [
           -64.71,
           -3.35
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "AMUA0",
-        "identifier": "Manaus - UEA",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-3.09, -60.02",
-        "solution": "single base",
-        "misc": "RBMC-AMUA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.02,
-          -3.09
         ]
       }
     },
@@ -1122,6 +1148,32 @@
         "coordinates": [
           -39.74,
           -17.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BAVC0",
+        "identifier": "Vitoria da Conquista",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-14.89, -40.8",
+        "solution": "single base",
+        "misc": "RBMC-BAVC",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.8,
+          -14.89
         ]
       }
     },
@@ -2214,6 +2266,32 @@
         "coordinates": [
           -43.22,
           -22.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PAAR0",
+        "identifier": "Altamira - UFPA",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-3.21, -52.21",
+        "solution": "single base",
+        "misc": "RBMC-PAAR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.21,
+          -3.21
         ]
       }
     },
