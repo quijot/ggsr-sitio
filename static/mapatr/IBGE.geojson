@@ -10,110 +10,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "SSRA02IGS0_SIRGAS2000",
-        "identifier": "RTCM-SSR APC SIRGAS2000",
-        "data_format": "RTCM 3.1",
-        "format_details": "1057(60),1058(10),1063(60),1064(10),1240(60),1241(10)",
-        "carrier": "No info",
-        "nav_system": "GPS+GLO+GAL",
-        "network": "MISC",
-        "country": "DEU",
-        "coordinates": "50.09, 8.66",
-        "solution": "network",
-        "misc": "IGS Combination SIRGAS2000 (o mesmo que SIRGAS200001)",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.66,
-          50.09
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SSRA03IGS0_SIRGAS2000",
-        "identifier": "RTCM-SSR APC SIRGAS2000",
-        "data_format": "RTCM 3.1",
-        "format_details": "1057(60),1058(10),1063(60),1064(10),1240(60),1241(10),1258(60),1259(10)",
-        "carrier": "No info",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "MISC",
-        "country": "DEU",
-        "coordinates": "50.09, 8.66",
-        "solution": "network",
-        "misc": "IGS Combination SIRGAS2000 (o mesmo que SIRGAS200002)",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.66,
-          50.09
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SSRA03IGS0",
-        "identifier": "RTCM-SSR APC",
-        "data_format": "RTCM 3.1",
-        "format_details": "1057(60),1058(10),1063(60),1064(10),1240(60),1241(10),1258(60),1259(10)",
-        "carrier": "No info",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "IGS",
-        "country": "DEU",
-        "coordinates": "50.09, 8.66",
-        "solution": "network",
-        "misc": "IGS Combination (o mesmo que IGS03)",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.66,
-          50.09
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BCEP00BKG0",
-        "identifier": "Assisted-GNSS",
-        "data_format": "RTCM 3.3",
-        "format_details": "1019,1020,1042,1043,1044,1045,1046",
-        "carrier": "No info",
-        "nav_system": "GPS+GLO+GAL+BDS+QZS+SBAS",
-        "network": "IGS",
-        "country": "DEU",
-        "coordinates": "50.09, 8.66",
-        "solution": "network",
-        "misc": "BKG (o mesmo que RTCM3EPH)",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.66,
-          50.09
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "BRAZ1",
         "identifier": "Brasilia",
         "data_format": "RTCM 3.0",
@@ -888,6 +784,32 @@
         "coordinates": [
           -64.71,
           -3.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AMUA0",
+        "identifier": "Manaus - UEA",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-3.09, -60.02",
+        "solution": "single base",
+        "misc": "RBMC-AMUA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.02,
+          -3.09
         ]
       }
     },
@@ -3410,32 +3332,6 @@
         "coordinates": [
           -37.1,
           -10.93
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SJRP0",
-        "identifier": "Sao Jose do Rio Preto",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1045(15),1077(1),1087(1),1097(1),1107(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-20.79, -49.36",
-        "solution": "single base",
-        "misc": "RBMC-SJRP",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -49.36,
-          -20.79
         ]
       }
     },
