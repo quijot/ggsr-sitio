@@ -426,6 +426,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BELG-v3.0",
+        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-77.87, -34.63",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.63,
+          -77.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "BOLS-v3.0",
         "identifier": "El Bolson, Rio Negro (BOLS-v3.0)",
         "data_format": "RTCM 3.0",
@@ -1050,58 +1076,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "ESQU-v3.0",
-        "identifier": "Esquel, Chubut (ESQU-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-42.91, -71.32",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.32,
-          -42.91
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ESQU-v3.2",
-        "identifier": "Esquel, Chubut (ESQU-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-42.91, -71.32",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.32,
-          -42.91
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "EZZA-v2.3",
         "identifier": "Ezeiza, Buenos Aires (EZZA-v2.3)",
         "data_format": "RTCM 2.3",
@@ -1616,32 +1590,6 @@
         "coordinates": [
           -68.73,
           -30.23
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "JVCH-v3.0",
-        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-27.0, -64.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.68,
-          -27.0
         ]
       }
     },
@@ -4658,6 +4606,32 @@
         "coordinates": [
           -68.57,
           -31.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UYBU-v3.0",
+        "identifier": "Bella Union, Artigas (UYBU-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-30.25, -57.6",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.6,
+          -30.25
         ]
       }
     },
