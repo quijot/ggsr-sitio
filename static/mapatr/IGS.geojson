@@ -2636,32 +2636,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "FUNC00PRT0",
-        "identifier": "Funchal",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(5),1008(5),1013(60),1033(5),1075(1),1085(1),1095(1),1125(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "IGS",
-        "country": "PRT",
-        "coordinates": "32.65, -16.91",
-        "solution": "single base",
-        "misc": "193.137.94.71:2101/FUNC0(1)",
-        "color": "red",
-        "align": "left",
-        "bline": "middle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.91,
-          32.65
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "GAMB00PYF0",
         "identifier": "Rikitea",
         "data_format": "RTCM 3.3",
