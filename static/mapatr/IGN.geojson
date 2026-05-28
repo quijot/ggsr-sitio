@@ -400,58 +400,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "BELG-v3.0",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BELG-v3.2",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "BOLS-v3.0",
         "identifier": "El Bolson, Rio Negro (BOLS-v3.0)",
         "data_format": "RTCM 3.0",
@@ -862,58 +810,6 @@
         "coordinates": [
           -68.42,
           -31.98
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "DAL5-v3.0",
-        "identifier": "Base Carlini, Tierra del Fuego, Antártida e Islas del Atlántico Sur (DAL5-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-62.4, -58.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.68,
-          -62.4
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "DAL5-v3.2",
-        "identifier": "Base Carlini, Tierra del Fuego, Antártida e Islas del Atlántico Sur (DAL5-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-62.4, -58.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.68,
-          -62.4
         ]
       }
     },
@@ -1492,6 +1388,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "ITAI-v3.0",
+        "identifier": "Foz do Iguacu, Parana (ITAI-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-25.42, -54.59",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.59,
+          -25.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "JBAL-v3.0",
         "identifier": "Alberdi, Tucuman (JBAL-v3.0)",
         "data_format": "RTCM 3.0",
@@ -1564,6 +1486,32 @@
         "coordinates": [
           -69.55,
           -41.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JVCH-v3.0",
+        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-27.0, -64.68",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.68,
+          -27.0
         ]
       }
     },
@@ -1888,6 +1836,32 @@
         "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
         "carrier": "L2",
         "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-35.78, -69.4",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4,
+          -35.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGUE-v3.2",
+        "identifier": "Malargue, Mendoza (MGUE-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(10),1097(10),1127(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
         "network": "RAMSAC",
         "country": "ARG",
         "coordinates": "-35.78, -69.4",
@@ -2292,6 +2266,58 @@
         "coordinates": [
           -64.45,
           -40.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NOYA-v3.0",
+        "identifier": "Nogoya, Entre Rios (NOYA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-32.38, -59.79",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.79,
+          -32.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NOYA-v3.2",
+        "identifier": "Nogoya, Entre Rios (NOYA-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1033(10),1075(1),1085(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-32.38, -59.79",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.79,
+          -32.38
         ]
       }
     },
@@ -2812,32 +2838,6 @@
         "coordinates": [
           -70.07,
           -40.05
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "PRCV-v3.0",
-        "identifier": "Cascavel, Parana (PRCV-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-30.25, -57.6",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.6,
-          -30.25
         ]
       }
     },

@@ -1700,6 +1700,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "IMPZ0",
+        "identifier": "Imperatriz",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-5.49, -47.5",
+        "solution": "single base",
+        "misc": "RBMC-IMPZ",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.5,
+          -5.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "ITAI0",
         "identifier": "Foz do Iguacu - ITAIPU",
         "data_format": "RTCM 3.2",
@@ -1850,6 +1876,32 @@
         "coordinates": [
           -46.33,
           -22.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGJA0",
+        "identifier": "Januaria",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.45, -44.37",
+        "solution": "single base",
+        "misc": "RBMC-MGJA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.37,
+          -15.45
         ]
       }
     },
