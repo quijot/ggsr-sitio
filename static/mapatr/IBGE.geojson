@@ -2454,32 +2454,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PEAF0",
-        "identifier": "Afogados da Ingazeira",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-7.76, -37.63",
-        "solution": "single base",
-        "misc": "RBMC-PEAF",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -37.63,
-          -7.76
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "PEPE0",
         "identifier": "Petrolina",
         "data_format": "RTCM 3.0",
@@ -3702,32 +3676,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "SPS10",
-        "identifier": "Sorocaba - UNESP",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-23.48, -47.42",
-        "solution": "single base",
-        "misc": "RBMC-SPS1",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -47.42,
-          -23.48
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "SPTU0",
         "identifier": "Tupa",
         "data_format": "RTCM 3.2",
@@ -3748,6 +3696,32 @@
         "coordinates": [
           -50.49,
           -21.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SSA10",
+        "identifier": "Salvador(Maregrafo)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-12.98, -38.52",
+        "solution": "single base",
+        "misc": "RBMC-SSA1",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.52,
+          -12.98
         ]
       }
     },
