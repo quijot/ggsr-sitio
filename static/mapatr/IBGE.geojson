@@ -114,6 +114,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BRAZ1",
+        "identifier": "Brasilia",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.95, -47.88",
+        "solution": "single base",
+        "misc": "RBMC-BRAZ",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.88,
+          -15.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "CEEU1",
         "identifier": "Eusebio",
         "data_format": "RTCM 3.0",
@@ -238,32 +264,6 @@
         "coordinates": [
           -44.97,
           -21.23
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "MTGA1",
-        "identifier": "Barra do Garcas - UFMT",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-15.88, -52.31",
-        "solution": "single base",
-        "misc": "RBMC-MTGA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.31,
-          -15.88
         ]
       }
     },
@@ -1258,6 +1258,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BRAZ0",
+        "identifier": "Brasilia",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.95, -47.88",
+        "solution": "single base",
+        "misc": "RBMC-BRAZ",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.88,
+          -15.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "CEEU0",
         "identifier": "Eusebio",
         "data_format": "RTCM 3.3",
@@ -2116,32 +2142,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "MTGA0",
-        "identifier": "Barra do Garcas - UFMT",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-15.88, -52.31",
-        "solution": "single base",
-        "misc": "RBMC-MTGA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.31,
-          -15.88
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "MTLA0",
         "identifier": "Pontes e Lacerda",
         "data_format": "RTCM 3.0",
@@ -2422,6 +2422,32 @@
         "coordinates": [
           -37.29,
           -7.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PECA0",
+        "identifier": "Caruaru - UFPE",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1045(15),1077(1),1087(1),1097(1),1107(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-8.23, -35.98",
+        "solution": "single base",
+        "misc": "RBMC-PECA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.98,
+          -8.23
         ]
       }
     },
