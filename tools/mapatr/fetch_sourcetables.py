@@ -137,9 +137,8 @@ def main():
             errors.append(name)
 
     if errors:
-        print(f"\nFallaron: {errors}", file=sys.stderr)
-        sys.exit(1)
-    print(f"\nGeoJSON generados en {OUTPUT_DIR}")
+                print(f"\nAdvertencia: fallaron los siguientes casters: {errors}", file=sys.stderr)
+        print(f"\nGeoJSON generados en {OUTPUT_DIR}")
 
 
 if __name__ == "__main__":
