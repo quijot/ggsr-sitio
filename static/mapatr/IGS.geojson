@@ -1388,58 +1388,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CHOF00JPN0",
-        "identifier": "Chofu",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(30),1008(30),1019,1020,1033(30),1044,1045,1046,1077(1),1087(1),1097(1),1117(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+QZS",
-        "network": "IGS",
-        "country": "JPN",
-        "coordinates": "35.67, 139.53",
-        "solution": "single base",
-        "misc": "JAXA/DLR",
-        "color": "red",
-        "align": "left",
-        "bline": "middle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.53,
-          35.67
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CHOF00JPN9",
-        "identifier": "Chofu",
-        "data_format": "RAW",
-        "format_details": "JPS",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+QZS+SBAS",
-        "network": "IGS",
-        "country": "JPN",
-        "coordinates": "35.66, 139.55",
-        "solution": "single base",
-        "misc": "JAXA/DLR",
-        "color": "red",
-        "align": "left",
-        "bline": "middle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.55,
-          35.66
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "CHPG00BRA0",
         "identifier": "Cachoera",
         "data_format": "RTCM 3.3",
