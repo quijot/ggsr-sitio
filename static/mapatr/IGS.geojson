@@ -530,32 +530,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "ARLI00USA0",
-        "identifier": "Arlington",
-        "data_format": "RTCM 3.1",
-        "format_details": "1004(1),1005(5),1007(5),1012(1),1033(5),4094(5)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "MISC",
-        "country": "USA",
-        "coordinates": "48.17, -122.14",
-        "solution": "single base",
-        "misc": "www.wsrn.org:2101/ARLI_R3(1)",
-        "color": "red",
-        "align": "left",
-        "bline": "middle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.14,
-          48.17
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "ARUC00ARM0",
         "identifier": "Aruch-Yerevan",
         "data_format": "RTCM 3.2",
