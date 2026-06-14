@@ -920,58 +920,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "DAL5-v3.0",
-        "identifier": "Base Carlini, Tierra del Fuego, Antártida e Islas del Atlántico Sur (DAL5-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-62.4, -58.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.68,
-          -62.4
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "DAL5-v3.2",
-        "identifier": "Base Carlini, Tierra del Fuego, Antártida e Islas del Atlántico Sur (DAL5-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-62.4, -58.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.68,
-          -62.4
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "DINO-v3.0",
         "identifier": "Ischigualasto, San Juan (DINO-v3.0)",
         "data_format": "RTCM 3.0",
@@ -1070,6 +1018,58 @@
         "coordinates": [
           -61.22,
           -32.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ESQU-v3.0",
+        "identifier": "Esquel, Chubut (ESQU-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-42.91, -71.32",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.32,
+          -42.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ESQU-v3.2",
+        "identifier": "Esquel, Chubut (ESQU-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-42.91, -71.32",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.32,
+          -42.91
         ]
       }
     },
@@ -1466,32 +1466,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "JVCH-v3.0",
-        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-27.0, -64.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.68,
-          -27.0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "JVCH-v3.2",
         "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.2)",
         "data_format": "RTCM 3.2",
@@ -1824,32 +1798,6 @@
         "coordinates": [
           -64.35,
           -31.45
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "MGUE-v3.2",
-        "identifier": "Malargue, Mendoza (MGUE-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(10),1097(10),1127(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-35.78, -69.4",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.4,
-          -35.78
         ]
       }
     },
@@ -3312,58 +3260,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "SAJA-v3.0",
-        "identifier": "San Javier, Santa Fe (SAJA-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-30.57, -59.93",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.93,
-          -30.57
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SAJA-v3.2",
-        "identifier": "San Javier, Santa Fe (SAJA-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1033(10),1075(1),1085(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-30.57, -59.93",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.93,
-          -30.57
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "SARM-v3.0",
         "identifier": "Sarmiento, Chubut (SARM-v3.0)",
         "data_format": "RTCM 3.0",
@@ -4736,32 +4632,6 @@
         "coordinates": [
           -62.99,
           -40.8
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "VIMA-v3.0",
-        "identifier": "Villa Maria, Cordoba (VIMA-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-32.42, -63.24",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.24,
-          -32.42
         ]
       }
     },
