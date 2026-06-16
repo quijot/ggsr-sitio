@@ -608,32 +608,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CAEP-v3.2",
-        "identifier": "Juan Jose Castelli, Chaco (CAEP-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-25.95, -60.62",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.62,
-          -25.95
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "CATA-v3.0",
         "identifier": "Catamarca, Catamarca (CATA-v3.0)",
         "data_format": "RTCM 3.0",
@@ -1310,6 +1284,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "GRCA-v3.0",
+        "identifier": "General Roca, Rio Negro (GRCA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-39.02, -67.57",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.57,
+          -39.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "GUAY-v3.0",
         "identifier": "Villaguay, Entre Rios (GUAY-v3.0)",
         "data_format": "RTCM 3.0",
@@ -1434,32 +1434,6 @@
         "coordinates": [
           -58.44,
           -34.57
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ITAI-v3.2",
-        "identifier": "Foz do Iguacu, Parana (ITAI-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(1),1097(1),1127(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-25.42, -54.59",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.59,
-          -25.42
         ]
       }
     },
@@ -1902,6 +1876,58 @@
         "coordinates": [
           -64.35,
           -31.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGUE-v3.0",
+        "identifier": "Malargue, Mendoza (MGUE-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-35.78, -69.4",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4,
+          -35.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGUE-v3.2",
+        "identifier": "Malargue, Mendoza (MGUE-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(10),1097(10),1127(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-35.78, -69.4",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4,
+          -35.78
         ]
       }
     },
@@ -3260,32 +3286,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RSCL-v3.0",
-        "identifier": "Cerro Largo, Rio Grande do Sul (RSCL-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-28.14, -54.75",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.75,
-          -28.14
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "RSCL-v3.2",
         "identifier": "Cerro Largo, Rio Grande do Sul (RSCL-v3.2)",
         "data_format": "RTCM 3.2",
@@ -3384,6 +3384,58 @@
         "coordinates": [
           -65.1,
           -43.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAJA-v3.0",
+        "identifier": "San Javier, Santa Fe (SAJA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-30.57, -59.93",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.93,
+          -30.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAJA-v3.2",
+        "identifier": "San Javier, Santa Fe (SAJA-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1033(10),1075(1),1085(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-30.57, -59.93",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.93,
+          -30.57
         ]
       }
     },
@@ -4768,6 +4820,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "VIMA-v3.0",
+        "identifier": "Villa Maria, Cordoba (VIMA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-32.42, -63.24",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.24,
+          -32.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "VIME-v3.0",
         "identifier": "Villa Mercedes, San Luis (VIME-v3.0)",
         "data_format": "RTCM 3.0",
@@ -4866,6 +4944,32 @@
         "coordinates": [
           -61.24,
           -24.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ZPLA-v3.0",
+        "identifier": "Zapala, Neuquen (ZPLA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-38.91, -70.07",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS06.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.07,
+          -38.91
         ]
       }
     }
