@@ -192,32 +192,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "AGGO-v3.2",
-        "identifier": "Observatorio Geodesico Argentino-Aleman, Buenos Aires (AGGO-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(1),1097(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-34.87, -58.14",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.14,
-          -34.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "AUTF-v3.0",
         "identifier": "Ushuaia, Tierra del Fuego (AUTF-v3.0)",
         "data_format": "RTCM 3.0",
@@ -420,58 +394,6 @@
         "coordinates": [
           -71.28,
           -41.13
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BELG-v3.0",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BELG-v3.2",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
         ]
       }
     },
@@ -1544,6 +1466,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "JVCH-v3.0",
+        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-27.0, -64.68",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.68,
+          -27.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "JVCH-v3.2",
         "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.2)",
         "data_format": "RTCM 3.2",
@@ -1700,6 +1648,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "LPGS-v3.0",
+        "identifier": "La Plata, Buenos Aires (LPGS-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-34.9, -57.93",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.93,
+          -34.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "LPGS-v3.2",
         "identifier": "La Plata, Buenos Aires (LPGS-v3.2)",
         "data_format": "RTCM 3.2",
@@ -1850,58 +1824,6 @@
         "coordinates": [
           -64.35,
           -31.45
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "MGUE-v3.0",
-        "identifier": "Malargue, Mendoza (MGUE-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-35.78, -69.4",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.4,
-          -35.78
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "MGUE-v3.2",
-        "identifier": "Malargue, Mendoza (MGUE-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(10),1097(10),1127(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-35.78, -69.4",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.4,
-          -35.78
         ]
       }
     },
@@ -2760,32 +2682,6 @@
         "coordinates": [
           -70.07,
           -40.05
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "PRCV-v3.0",
-        "identifier": "Cascavel, Parana (PRCV-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-30.25, -57.6",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.6,
-          -30.25
         ]
       }
     },
@@ -4814,32 +4710,6 @@
         "coordinates": [
           -62.99,
           -40.8
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "VIMA-v3.0",
-        "identifier": "Villa Maria, Cordoba (VIMA-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-32.42, -63.24",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.24,
-          -32.42
         ]
       }
     },

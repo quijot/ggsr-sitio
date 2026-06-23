@@ -426,6 +426,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PRGU1",
+        "identifier": "Guarapuava",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-25.38, -51.49",
+        "solution": "single base",
+        "misc": "RBMC-PRGU",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.49,
+          -25.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "RJCG1",
         "identifier": "Campos dos Goytacazes",
         "data_format": "RTCM 3.0",
@@ -1700,6 +1726,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "IMPZ0",
+        "identifier": "Imperatriz",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-5.49, -47.5",
+        "solution": "single base",
+        "misc": "RBMC-IMPZ",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.5,
+          -5.49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "ITAI0",
         "identifier": "Foz do Iguacu - ITAIPU",
         "data_format": "RTCM 3.2",
@@ -1876,6 +1928,32 @@
         "coordinates": [
           -44.37,
           -15.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGJP0",
+        "identifier": "Belo Horizonte - FJP",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-19.85, -43.97",
+        "solution": "single base",
+        "misc": "RBMC-MGJP",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.97,
+          -19.85
         ]
       }
     },
@@ -2428,32 +2506,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PECA0",
-        "identifier": "Caruaru - UFPE",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1045(15),1077(1),1087(1),1097(1),1107(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-8.23, -35.98",
-        "solution": "single base",
-        "misc": "RBMC-PECA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.98,
-          -8.23
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "PEPE0",
         "identifier": "Petrolina",
         "data_format": "RTCM 3.0",
@@ -2662,58 +2714,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PRCL0",
-        "identifier": "Cascavel - Unioeste",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-24.99, -53.45",
-        "solution": "single base",
-        "misc": "RBMC-PRCL",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -53.45,
-          -24.99
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "PRGU0",
-        "identifier": "Guarapuava",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-25.38, -51.49",
-        "solution": "single base",
-        "misc": "RBMC-PRGU",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.49,
-          -25.38
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "PRMA0",
         "identifier": "Maringa",
         "data_format": "RTCM 3.3",
@@ -2864,32 +2864,6 @@
         "coordinates": [
           -35.21,
           -5.84
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "RNPF0",
-        "identifier": "Pau dos Ferros",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-6.13, -38.21",
-        "solution": "single base",
-        "misc": "RBMC-RNPF",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -38.21,
-          -6.13
         ]
       }
     },
@@ -3696,32 +3670,6 @@
         "coordinates": [
           -50.49,
           -21.93
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "STHA0",
-        "identifier": "Sta Helena - Agnaldo Fernandes",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-24.85, -54.34",
-        "solution": "single base",
-        "misc": "RBMC-STHA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.34,
-          -24.85
         ]
       }
     },
