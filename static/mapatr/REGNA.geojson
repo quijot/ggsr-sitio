@@ -2355,7 +2355,7 @@
         "data_format": "RTCM 3",
         "format_details": "",
         "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
+        "nav_system": "GPS+GLO+GAL+BDS+QZSS",
         "network": "",
         "country": "",
         "coordinates": "-33.32, -55.6",
