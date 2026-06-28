@@ -114,58 +114,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "ABRA-v3.0",
-        "identifier": "Abra Pampa, Jujuy (ABRA-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-22.72, -65.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.68,
-          -22.72
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ABRA-v3.2",
-        "identifier": "Abra Pampa, Jujuy (ABRA-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-22.72, -65.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.68,
-          -22.72
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "AGGO-v3.0",
         "identifier": "Observatorio Geodesico Argentino-Aleman, Buenos Aires (AGGO-v3.0)",
         "data_format": "RTCM 3.0",
@@ -342,110 +290,6 @@
         "coordinates": [
           -58.3,
           -37.76
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BCH1-v3.0",
-        "identifier": "Bariloche, Rio Negro (BCH1-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-41.13, -71.28",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.28,
-          -41.13
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BCH1-v3.2",
-        "identifier": "Bariloche, Rio Negro (BCH1-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1033(10),1077(10),1087(10),1097(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-41.13, -71.28",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.28,
-          -41.13
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BELG-v3.0",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BELG-v3.2",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
         ]
       }
     },
@@ -790,6 +634,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "CHAC-v3.2",
+        "identifier": "Resistencia, Chaco (CHAC-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-27.42, -58.95",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.95,
+          -27.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "CHIM-v3.0",
         "identifier": "Chimpay, Rio Negro (CHIM-v3.0)",
         "data_format": "RTCM 3.0",
@@ -1076,32 +946,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "EBY1-v3.0",
-        "identifier": "Posadas, Misiones (EBY1-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1007(10),1013(10)",
-        "carrier": "L2",
-        "nav_system": "GPS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-27.5, -56.41",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.41,
-          -27.5
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "EPGZ-v3.0",
         "identifier": "Galvez, Santa Fe (EPGZ-v3.0)",
         "data_format": "RTCM 3.0",
@@ -1148,58 +992,6 @@
         "coordinates": [
           -61.22,
           -32.03
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ESQU-v3.0",
-        "identifier": "Esquel, Chubut (ESQU-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-42.91, -71.32",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.32,
-          -42.91
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ESQU-v3.2",
-        "identifier": "Esquel, Chubut (ESQU-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-42.91, -71.32",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.32,
-          -42.91
         ]
       }
     },
@@ -1674,32 +1466,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "JVCH-v3.0",
-        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-27.0, -64.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.68,
-          -27.0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "JVCH-v3.2",
         "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.2)",
         "data_format": "RTCM 3.2",
@@ -1850,6 +1616,32 @@
         "coordinates": [
           -65.6,
           -38.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LPGS-v3.0",
+        "identifier": "La Plata, Buenos Aires (LPGS-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-34.9, -57.93",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.93,
+          -34.9
         ]
       }
     },
@@ -2474,6 +2266,32 @@
         "coordinates": [
           -55.13,
           -27.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OJOA-v3.0",
+        "identifier": "Villa Ojo de Agua, Santiago del Estero (OJOA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-29.5, -63.69",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.69,
+          -29.5
         ]
       }
     },
@@ -4070,6 +3888,32 @@
         "identifier": "Tilcara, Jujuy (TILC-v3.0)",
         "data_format": "RTCM 3.0",
         "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-23.58, -65.39",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.39,
+          -23.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TILC-v3.2",
+        "identifier": "Tilcara, Jujuy (TILC-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
         "carrier": "L2",
         "nav_system": "GPS+GLO",
         "network": "RAMSAC",
