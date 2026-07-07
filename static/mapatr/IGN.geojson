@@ -10,58 +10,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RCRO-v3.2",
-        "identifier": "Recreo, Catamarca (RCRO-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1074(1),1084(1),1094(1),1124(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-29.27, -65.06",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.06,
-          -29.27
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SUR1-v3.2",
-        "identifier": "Pinto, Santiago del Estero (SUR1-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-29.14, -62.65",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.65,
-          -29.14
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "25MA-v3.0",
         "identifier": "25 de Mayo, La Pampa (25MA-v3.0)",
         "data_format": "RTCM 3.0",
@@ -530,10 +478,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "BELG-v3.2",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
+        "name": "BELG-v3.0",
+        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
         "carrier": "L2",
         "nav_system": "GPS+GLO",
         "network": "RAMSAC",
@@ -706,6 +654,32 @@
         "coordinates": [
           -60.62,
           -25.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CAQI-v3.3",
+        "identifier": "Calchaqui, Santa Fe (CAQI-v3.3)",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(10),1013(10),1033(10),1077(10),1087(1),1097(1),1127(1),1127(1),1230(10),4094(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-29.89, -60.28",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.28,
+          -29.89
         ]
       }
     },
@@ -1018,6 +992,32 @@
         "coordinates": [
           -69.3,
           -31.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CSOM-v3.0",
+        "identifier": "Cerro Sombrero, Punta Arenas (CSOM-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-52.78, -69.22",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.22,
+          -52.78
         ]
       }
     },
@@ -1616,32 +1616,6 @@
         "coordinates": [
           -58.44,
           -34.57
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ITAI-v3.0",
-        "identifier": "Foz do Iguacu, Parana (ITAI-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-25.42, -54.59",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.59,
-          -25.42
         ]
       }
     },
@@ -2604,6 +2578,58 @@
         "coordinates": [
           -68.62,
           -31.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OBRA-v3.0",
+        "identifier": "Obera, Misiones (OBRA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1006(10),1008(10),1033(10),1074(1),1084(1),1094(1),1124(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-27.47, -55.13",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.13,
+          -27.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OBRA-v3.2",
+        "identifier": "Obera, Misiones (OBRA-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1033(10),1074(1),1084(1),1094(1),1124(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-27.47, -55.13",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.13,
+          -27.47
         ]
       }
     },
@@ -4066,12 +4092,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "SUR1-v3.0",
-        "identifier": "Pinto, Santiago del Estero (SUR1-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "name": "SUR1-v3.3",
+        "identifier": "Pinto, Santiago del Estero (SUR1-v3.3)",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(10),1013(10),1033(10),1077(10),1087(1),1097(1),1127(1),1127(1),1230(10),4094(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO",
+        "nav_system": "GPS+GLO+GAL+BDS",
         "network": "RAMSAC",
         "country": "ARG",
         "coordinates": "-29.14, -62.65",
