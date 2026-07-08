@@ -504,6 +504,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BELG-v3.2",
+        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-77.87, -34.63",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.63,
+          -77.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "BOLS-v3.0",
         "identifier": "El Bolson, Rio Negro (BOLS-v3.0)",
         "data_format": "RTCM 3.0",
@@ -764,6 +790,84 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "CFAG-v2.3",
+        "identifier": "Caucete, San Juan (CFAG-v2.3)",
+        "data_format": "RTCM 2.3",
+        "format_details": "1(1),3(10),18(1),19(1),22(10)",
+        "carrier": "L2",
+        "nav_system": "GPS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-31.6, -68.23",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.23,
+          -31.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CFAG-v3.0",
+        "identifier": "Caucete, San Juan (CFAG-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-31.6, -68.23",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.23,
+          -31.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CFAG-v3.2",
+        "identifier": "Caucete, San Juan (CFAG-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-31.6, -68.23",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.23,
+          -31.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "CHAC-v3.0",
         "identifier": "Resistencia, Chaco (CHAC-v3.0)",
         "data_format": "RTCM 3.0",
@@ -992,32 +1096,6 @@
         "coordinates": [
           -69.3,
           -31.78
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CSOM-v3.0",
-        "identifier": "Cerro Sombrero, Punta Arenas (CSOM-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-52.78, -69.22",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.22,
-          -52.78
         ]
       }
     },
@@ -1492,32 +1570,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "GRCA-v3.0",
-        "identifier": "General Roca, Rio Negro (GRCA-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-39.02, -67.57",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.57,
-          -39.02
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "GUAY-v3.0",
         "identifier": "Villaguay, Entre Rios (GUAY-v3.0)",
         "data_format": "RTCM 3.0",
@@ -1622,6 +1674,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "ITAI-v3.0",
+        "identifier": "Foz do Iguacu, Parana (ITAI-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-25.42, -54.59",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.59,
+          -25.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "ITAI-v3.2",
         "identifier": "Foz do Iguacu, Parana (ITAI-v3.2)",
         "data_format": "RTCM 3.2",
@@ -1694,32 +1772,6 @@
         "coordinates": [
           -65.62,
           -27.58
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "JCBC-v3.0",
-        "identifier": "Ingeniero Jacobacci, Rio Negro (JCBC-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1007(10),1013(10)",
-        "carrier": "L2",
-        "nav_system": "GPS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-41.33, -69.55",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.55,
-          -41.33
         ]
       }
     },
@@ -3052,6 +3104,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PRCV-v3.0",
+        "identifier": "Cascavel, Parana (PRCV-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-30.25, -57.6",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.6,
+          -30.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "PRNA-v3.0",
         "identifier": "Parana, Entre Rios (PRNA-v3.0)",
         "data_format": "RTCM 3.0",
@@ -4216,6 +4294,58 @@
         "coordinates": [
           -64.25,
           -27.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TGTA-v3.0",
+        "identifier": "Tinogasta, Catamarca (TGTA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-28.06, -67.56",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.56,
+          -28.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TGTA-v3.2",
+        "identifier": "Tinogasta, Catamarca (TGTA-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-28.06, -67.56",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.56,
+          -28.06
         ]
       }
     },
