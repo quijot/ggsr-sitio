@@ -88,58 +88,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "UYLP",
-        "identifier": "UYLP",
-        "data_format": "RTCM 3",
-        "format_details": "",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "",
-        "country": "",
-        "coordinates": "-34.66, -54.14",
-        "solution": "single base",
-        "misc": "",
-        "color": "LightSkyBlue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.14,
-          -34.66
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "UYLP-V2",
-        "identifier": "UYLP-V2",
-        "data_format": "RTCM 2",
-        "format_details": "",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "",
-        "country": "",
-        "coordinates": "-34.66, -54.14",
-        "solution": "single base",
-        "misc": "",
-        "color": "LightSkyBlue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.14,
-          -34.66
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "UYRO",
         "identifier": "UYRO",
         "data_format": "RTCM 3",
@@ -2500,6 +2448,84 @@
         "coordinates": [
           -56.26,
           -34.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UYLP",
+        "identifier": "UYLP",
+        "data_format": "RTCM 3",
+        "format_details": "",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "",
+        "country": "",
+        "coordinates": "-34.66, -54.14",
+        "solution": "single base",
+        "misc": "",
+        "color": "LightSkyBlue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.14,
+          -34.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UYLP_MSM4",
+        "identifier": "UYLP_MSM4",
+        "data_format": "RTCM 3",
+        "format_details": "",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "",
+        "country": "",
+        "coordinates": "-34.66, -54.14",
+        "solution": "single base",
+        "misc": "",
+        "color": "LightSkyBlue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.14,
+          -34.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UYLP-V2",
+        "identifier": "UYLP-V2",
+        "data_format": "RTCM 2",
+        "format_details": "",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "",
+        "country": "",
+        "coordinates": "-34.66, -54.14",
+        "solution": "single base",
+        "misc": "",
+        "color": "LightSkyBlue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.14,
+          -34.66
         ]
       }
     }
