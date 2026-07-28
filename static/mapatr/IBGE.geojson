@@ -192,6 +192,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "CUIB1",
+        "identifier": "Cuiaba",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.56, -56.07",
+        "solution": "single base",
+        "misc": "RBMC-CUIB",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.07,
+          -15.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "GOGY1",
         "identifier": "Goiania",
         "data_format": "RTCM 3.0",
@@ -576,6 +602,32 @@
         "coordinates": [
           -48.29,
           -21.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PAAR1",
+        "identifier": "Altamira - UFPA",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-3.21, -52.21",
+        "solution": "single base",
+        "misc": "RBMC-PAAR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.21,
+          -3.21
         ]
       }
     },
@@ -1388,6 +1440,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "CUIB0",
+        "identifier": "Cuiaba",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.56, -56.07",
+        "solution": "single base",
+        "misc": "RBMC-CUIB",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.07,
+          -15.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "EACH0",
         "identifier": "Sao Paulo - USP Leste",
         "data_format": "RTCM 3.0",
@@ -1752,6 +1830,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "MGGV0",
+        "identifier": "Governador Valadares",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-18.83, -41.98",
+        "solution": "single base",
+        "misc": "RBMC-MGGV",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.98,
+          -18.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "MGJF0",
         "identifier": "Juiz de Fora",
         "data_format": "RTCM 3.0",
@@ -1876,6 +1980,32 @@
         "coordinates": [
           -47.52,
           -18.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGRP0",
+        "identifier": "Rio Paranaiba",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-19.21, -46.13",
+        "solution": "single base",
+        "misc": "RBMC-MGRP",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.13,
+          -19.21
         ]
       }
     },
@@ -2136,6 +2266,32 @@
         "coordinates": [
           -43.22,
           -22.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PAAR0",
+        "identifier": "Altamira - UFPA",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-3.21, -52.21",
+        "solution": "single base",
+        "misc": "RBMC-PAAR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.21,
+          -3.21
         ]
       }
     },
@@ -2792,32 +2948,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "ROCO0",
-        "identifier": "Colorado do Oeste - IFRO",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-13.11, -60.49",
-        "solution": "single base",
-        "misc": "RBMC-ROCO",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.49,
-          -13.11
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "ROGU0",
         "identifier": "Guajara-Mirim - IFRO",
         "data_format": "RTCM 3.2",
@@ -2994,32 +3124,6 @@
         "coordinates": [
           -51.15,
           -29.79
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SAGA0",
-        "identifier": "Sao Gabriel da Cachoeira",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-0.14, -67.06",
-        "solution": "single base",
-        "misc": "RBMC-SAGA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.06,
-          -0.14
         ]
       }
     },
@@ -3436,32 +3540,6 @@
         "coordinates": [
           -47.06,
           -22.82
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SPFE0",
-        "identifier": "Fernandopolis",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-20.26, -50.23",
-        "solution": "single base",
-        "misc": "RBMC-SPFE",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -50.23,
-          -20.26
         ]
       }
     },
