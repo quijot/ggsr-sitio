@@ -36,6 +36,58 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "25MA-v3.0",
+        "identifier": "25 de Mayo, La Pampa (25MA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-37.77, -67.71",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.71,
+          -37.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "25MA-v3.2",
+        "identifier": "25 de Mayo, La Pampa (25MA-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-37.77, -67.71",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.71,
+          -37.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "3ARO-v3.0",
         "identifier": "Tres Arroyos, Buenos Aires (3ARO-v3.0)",
         "data_format": "RTCM 3.0",
@@ -446,58 +498,6 @@
         "coordinates": [
           -71.28,
           -41.13
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BELG-v3.0",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BELG-v3.2",
-        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-77.87, -34.63",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.63,
-          -77.87
         ]
       }
     },
@@ -1778,6 +1778,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "JVCH-v3.0",
+        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-27.0, -64.68",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.68,
+          -27.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "JVCH-v3.2",
         "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.2)",
         "data_format": "RTCM 3.2",
@@ -2070,6 +2096,32 @@
         "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10),4091(10)",
         "carrier": "L2",
         "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-31.45, -64.35",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.35,
+          -31.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGNO-v3.2",
+        "identifier": "Malagueno, Cordoba (MGNO-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1033(10),1074(1),1084(1),1094(1),1124(1),4091(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
         "network": "RAMSAC",
         "country": "ARG",
         "coordinates": "-31.45, -64.35",
@@ -4014,32 +4066,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "SUAR-v3.0",
-        "identifier": "Coronel Suarez, Buenos Aires (SUAR-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10),4091(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-37.45, -61.92",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.92,
-          -37.45
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "SUR1-v3.3",
         "identifier": "Pinto, Santiago del Estero (SUR1-v3.3)",
         "data_format": "RTCM 3.3",
@@ -4424,6 +4450,58 @@
         "coordinates": [
           -65.28,
           -26.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TUC1-v3.0",
+        "identifier": "Tucuman, Tucuman (TUC1-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-26.83, -65.18",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.18,
+          -26.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TUC1-v3.2",
+        "identifier": "Tucuman, Tucuman (TUC1-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1033(10),1077(1),1087(1),1097(1),1127(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-26.83, -65.18",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.18,
+          -26.83
         ]
       }
     },
