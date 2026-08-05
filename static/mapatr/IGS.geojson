@@ -426,32 +426,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "ANTC00CHL0",
-        "identifier": "Los_Angeles",
-        "data_format": "RTCM 3.3",
-        "format_details": "1004(1),1006(1),1012(1),1033(1),1045,1046,1074(1),1075(1),1076(1),1077(1),1084(1),1085(1),1086(1),1087(1),1094(1),1095(1),1096(1),1097(1),1104(1),1105(1),1106(1),1107(1),1114(1),1115(1),1116(1),1117(1),1124(1),1125(1),1126(1),1127(1),1134(1),1135(1),1136(1),1137(1),1230(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+QZS+IRS+SBAS",
-        "network": "IGS",
-        "country": "CHL",
-        "coordinates": "-37.34, -71.53",
-        "solution": "single base",
-        "misc": "rtgpsout.earthscope.org:2101/ANTC_RTCM3(1)",
-        "color": "red",
-        "align": "left",
-        "bline": "middle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.53,
-          -37.34
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "ANTF00CHL0",
         "identifier": "Antofagasta",
         "data_format": "RTCM 3.3",
