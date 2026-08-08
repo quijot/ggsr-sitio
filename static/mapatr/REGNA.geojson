@@ -1908,15 +1908,15 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "VRS-MSM4",
-        "identifier": "VRS-MSM4",
+        "name": "VRS-MSM5",
+        "identifier": "VRS-MSM5",
         "data_format": "RTCM 3",
         "format_details": "",
         "carrier": "L2",
         "nav_system": "GPS+GLO+GAL+BDS",
         "network": "",
         "country": "",
-        "coordinates": "-32.92, -54.96",
+        "coordinates": "-30.9, -55.56",
         "solution": "network",
         "misc": "",
         "color": "LightSkyBlue",
@@ -1926,8 +1926,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.96,
-          -32.92
+          -55.56,
+          -30.9
         ]
       }
     },
@@ -2228,7 +2228,7 @@
         "nav_system": "GPS+GLO",
         "network": "",
         "country": "",
-        "coordinates": "-34.0, -56.54",
+        "coordinates": "-34.0, -53.55",
         "solution": "single base",
         "misc": "",
         "color": "LightSkyBlue",
@@ -2238,7 +2238,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.54,
+          -53.55,
           -34.0
         ]
       }
@@ -2254,7 +2254,7 @@
         "nav_system": "GPS+GLO+GAL+BDS",
         "network": "",
         "country": "",
-        "coordinates": "-34.0, -56.54",
+        "coordinates": "-34.0, -53.55",
         "solution": "single base",
         "misc": "",
         "color": "LightSkyBlue",
@@ -2264,7 +2264,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.54,
+          -53.55,
           -34.0
         ]
       }
@@ -2280,7 +2280,7 @@
         "nav_system": "GPS+GLO",
         "network": "",
         "country": "",
-        "coordinates": "-34.0, -56.54",
+        "coordinates": "-34.0, -53.55",
         "solution": "single base",
         "misc": "",
         "color": "LightSkyBlue",
@@ -2290,7 +2290,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.54,
+          -53.55,
           -34.0
         ]
       }
