@@ -192,32 +192,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "AGGO-v3.0",
-        "identifier": "Observatorio Geodesico Argentino-Aleman, Buenos Aires (AGGO-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-34.87, -58.14",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.14,
-          -34.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "AGGO-v3.2",
         "identifier": "Observatorio Geodesico Argentino-Aleman, Buenos Aires (AGGO-v3.2)",
         "data_format": "RTCM 3.2",
@@ -1726,6 +1700,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "JVCH-v3.0",
+        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-27.0, -64.68",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.68,
+          -27.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "JVCH-v3.2",
         "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.2)",
         "data_format": "RTCM 3.2",
@@ -2064,12 +2064,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "MGUE-v3.0",
-        "identifier": "Malargue, Mendoza (MGUE-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "name": "MGUE-v3.2",
+        "identifier": "Malargue, Mendoza (MGUE-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(10),1097(10),1127(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO",
+        "nav_system": "GPS+GLO+GAL+BDS",
         "network": "RAMSAC",
         "country": "ARG",
         "coordinates": "-35.78, -69.4",
@@ -2896,6 +2896,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PRCV-v3.0",
+        "identifier": "Cascavel, Parana (PRCV-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-30.25, -57.6",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.6,
+          -30.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "PWRO-v2.3",
         "identifier": "Puesto Wircaleo, Neuquen (PWRO-v2.3)",
         "data_format": "RTCM 2.3",
@@ -3312,6 +3338,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RSAL-v3.0",
+        "identifier": "Alegrete, Rio Grande do Sul (RSAL-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-29.79, -55.77",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.77,
+          -29.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "RSAU-v3.2",
         "identifier": "Rincon de los Sauces, Neuquen (RSAU-v3.2)",
         "data_format": "RTCM 3.2",
@@ -3332,32 +3384,6 @@
         "coordinates": [
           -68.92,
           -37.38
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "RSCL-v3.0",
-        "identifier": "Cerro Largo, Rio Grande do Sul (RSCL-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-28.14, -54.75",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.75,
-          -28.14
         ]
       }
     },
@@ -3436,6 +3462,32 @@
         "coordinates": [
           -65.1,
           -43.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SARM-v3.0",
+        "identifier": "Sarmiento, Chubut (SARM-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-45.58, -69.07",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.07,
+          -45.58
         ]
       }
     },
