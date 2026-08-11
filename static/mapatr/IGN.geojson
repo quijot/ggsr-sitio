@@ -192,6 +192,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "AGGO-v3.0",
+        "identifier": "Observatorio Geodesico Argentino-Aleman, Buenos Aires (AGGO-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-34.87, -58.14",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.14,
+          -34.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "AGGO-v3.2",
         "identifier": "Observatorio Geodesico Argentino-Aleman, Buenos Aires (AGGO-v3.2)",
         "data_format": "RTCM 3.2",
@@ -394,6 +420,32 @@
         "coordinates": [
           -61.91,
           -38.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BCAR-v3.2",
+        "identifier": "Balcarce, Buenos Aires (BCAR-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1097(1),1127(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-37.76, -58.3",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3,
+          -37.76
         ]
       }
     },
@@ -1674,32 +1726,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "JCBC-v3.0",
-        "identifier": "Ingeniero Jacobacci, Rio Negro (JCBC-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1007(10),1013(10)",
-        "carrier": "L2",
-        "nav_system": "GPS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-41.33, -69.55",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.55,
-          -41.33
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "JVCH-v3.0",
         "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
         "data_format": "RTCM 3.0",
@@ -2064,12 +2090,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "MGUE-v3.2",
-        "identifier": "Malargue, Mendoza (MGUE-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(10),1097(10),1127(10)",
+        "name": "MGUE-v3.0",
+        "identifier": "Malargue, Mendoza (MGUE-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
+        "nav_system": "GPS+GLO",
         "network": "RAMSAC",
         "country": "ARG",
         "coordinates": "-35.78, -69.4",
@@ -3936,58 +3962,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TGTA-v3.0",
-        "identifier": "Tinogasta, Catamarca (TGTA-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-28.06, -67.56",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.56,
-          -28.06
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "TGTA-v3.2",
-        "identifier": "Tinogasta, Catamarca (TGTA-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-28.06, -67.56",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.56,
-          -28.06
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "TILC-v3.0",
         "identifier": "Tilcara, Jujuy (TILC-v3.0)",
         "data_format": "RTCM 3.0",
@@ -4320,6 +4294,32 @@
         "coordinates": [
           -65.23,
           -26.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UCOR-v3.3",
+        "identifier": "Cordoba, Cordoba (UCOR-v3.3)",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(10),1013(10),1033(10),1077(10),1087(1),1097(1),1127(1),1127(1),1230(10),4094(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-31.43, -64.18",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.18,
+          -31.43
         ]
       }
     },
