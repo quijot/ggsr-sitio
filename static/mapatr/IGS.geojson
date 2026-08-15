@@ -9552,6 +9552,58 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "WT2100DEU0_1",
+        "identifier": "-",
+        "data_format": "-",
+        "format_details": "-",
+        "carrier": "L1",
+        "nav_system": "-",
+        "network": "-",
+        "country": "-",
+        "coordinates": "0.0, 0.0",
+        "solution": "network",
+        "misc": "",
+        "color": "red",
+        "align": "left",
+        "bline": "middle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WT2100DEU0_2",
+        "identifier": "-",
+        "data_format": "-",
+        "format_details": "-",
+        "carrier": "L1",
+        "nav_system": "-",
+        "network": "-",
+        "country": "-",
+        "coordinates": "0.0, 0.0",
+        "solution": "network",
+        "misc": "",
+        "color": "red",
+        "align": "left",
+        "bline": "middle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "WTZ300DEU0",
         "identifier": "Wettzell",
         "data_format": "RTCM 3.3",

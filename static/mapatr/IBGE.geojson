@@ -400,32 +400,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PRGU1",
-        "identifier": "Guarapuava",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-25.38, -51.49",
-        "solution": "single base",
-        "misc": "RBMC-PRGU",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.49,
-          -25.38
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "RJCG1",
         "identifier": "Campos dos Goytacazes",
         "data_format": "RTCM 3.0",
@@ -660,32 +634,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RNNA1",
-        "identifier": "Natal",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-5.84, -35.21",
-        "solution": "single base",
-        "misc": "RBMC-RNNA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.21,
-          -5.84
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "BAVC1",
         "identifier": "Vitoria da Conquista",
         "data_format": "RTCM 3.0",
@@ -914,32 +862,6 @@
         "coordinates": [
           -51.1,
           0.05
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "APS10",
-        "identifier": "Santana - Docas",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-0.06, -51.17",
-        "solution": "single base",
-        "misc": "RBMC-APS1",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.17,
-          -0.06
         ]
       }
     },
@@ -2272,6 +2194,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PBCG0",
+        "identifier": "Campina Grande",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-7.21, -35.91",
+        "solution": "single base",
+        "misc": "RBMC-PBCG",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.91,
+          -7.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "PBJP0",
         "identifier": "Joao Pessoa",
         "data_format": "RTCM 3.2",
@@ -2610,32 +2558,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PRGU0",
-        "identifier": "Guarapuava",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-25.38, -51.49",
-        "solution": "single base",
-        "misc": "RBMC-PRGU",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.49,
-          -25.38
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "PRMA0",
         "identifier": "Maringa",
         "data_format": "RTCM 3.3",
@@ -2786,32 +2708,6 @@
         "coordinates": [
           -43.65,
           -22.4
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "RNNA0",
-        "identifier": "Natal",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-5.84, -35.21",
-        "solution": "single base",
-        "misc": "RBMC-RNNA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.21,
-          -5.84
         ]
       }
     },
@@ -3312,32 +3208,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "SEAJ0",
-        "identifier": "Aracaju",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-10.93, -37.1",
-        "solution": "single base",
-        "misc": "RBMC-SEAJ",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -37.1,
-          -10.93
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "SJRP0",
         "identifier": "Sao Jose do Rio Preto",
         "data_format": "RTCM 3.2",
@@ -3592,32 +3462,6 @@
         "coordinates": [
           -49.84,
           -23.0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SPS10",
-        "identifier": "Sorocaba - UNESP",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-23.48, -47.42",
-        "solution": "single base",
-        "misc": "RBMC-SPS1",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -47.42,
-          -23.48
         ]
       }
     },
