@@ -790,32 +790,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "AMCR0",
-        "identifier": "Coari - IBGE",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-4.09, -63.14",
-        "solution": "single base",
-        "misc": "RBMC-AMCR",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.14,
-          -4.09
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "AMPT0",
         "identifier": "Parintins - UFAM",
         "data_format": "RTCM 3.3",
@@ -1174,32 +1148,6 @@
         "coordinates": [
           -48.46,
           -1.41
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BEPA0",
-        "identifier": "Belem - INPE",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-1.46, -48.44",
-        "solution": "single base",
-        "misc": "RBMC-BEPA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.44,
-          -1.46
         ]
       }
     },

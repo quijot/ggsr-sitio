@@ -218,32 +218,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "AGGO-v3.0",
-        "identifier": "Observatorio Geodesico Argentino-Aleman, Buenos Aires (AGGO-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-34.87, -58.14",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.14,
-          -34.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "AGGO-v3.2",
         "identifier": "Observatorio Geodesico Argentino-Aleman, Buenos Aires (AGGO-v3.2)",
         "data_format": "RTCM 3.2",
@@ -264,32 +238,6 @@
         "coordinates": [
           -58.14,
           -34.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ALTA-v3.0",
-        "identifier": "Los Altares, Chubut (ALTA-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-43.88, -68.41",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.41,
-          -43.88
         ]
       }
     },
@@ -426,6 +374,58 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BATE-v3.0",
+        "identifier": "Baterias, Buenos Aires (BATE-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-38.96, -61.91",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.91,
+          -38.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BATE-v3.2",
+        "identifier": "Baterias, Buenos Aires (BATE-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1033(10),1074(1),1084(1),1094(1),1124(1),4091(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-38.96, -61.91",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.91,
+          -38.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "BCAR-v3.2",
         "identifier": "Balcarce, Buenos Aires (BCAR-v3.2)",
         "data_format": "RTCM 3.2",
@@ -508,6 +508,32 @@
         "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.0)",
         "data_format": "RTCM 3.0",
         "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-77.87, -34.63",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.63,
+          -77.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BELG-v3.2",
+        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
         "carrier": "L2",
         "nav_system": "GPS+GLO",
         "network": "RAMSAC",
@@ -1050,6 +1076,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "CSOM-v3.0",
+        "identifier": "Cerro Sombrero, Punta Arenas (CSOM-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-52.78, -69.22",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.22,
+          -52.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "DAL5-v3.0",
         "identifier": "Base Carlini, Tierra del Fuego, Antártida e Islas del Atlántico Sur (DAL5-v3.0)",
         "data_format": "RTCM 3.0",
@@ -1148,32 +1200,6 @@
         "coordinates": [
           -67.84,
           -30.16
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "DORE-v3.3",
-        "identifier": "Dolores, Buenos Aires (DORE-v3.3)",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(10),1013(10),1033(10),1077(10),1087(1),1097(1),1127(1),1127(1),1230(10),4094(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-36.31, -57.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.68,
-          -36.31
         ]
       }
     },
@@ -1674,12 +1700,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "ITAI-v3.2",
-        "identifier": "Foz do Iguacu, Parana (ITAI-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(1),1097(1),1127(10)",
+        "name": "ITAI-v3.0",
+        "identifier": "Foz do Iguacu, Parana (ITAI-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
+        "nav_system": "GPS+GLO",
         "network": "RAMSAC",
         "country": "ARG",
         "coordinates": "-25.42, -54.59",
@@ -1772,32 +1798,6 @@
         "coordinates": [
           -69.55,
           -41.33
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "JVCH-v3.0",
-        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-27.0, -64.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.68,
-          -27.0
         ]
       }
     },
@@ -2142,12 +2142,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "MGUE-v3.0",
-        "identifier": "Malargue, Mendoza (MGUE-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "name": "MGUE-v3.2",
+        "identifier": "Malargue, Mendoza (MGUE-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(10),1097(10),1127(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO",
+        "nav_system": "GPS+GLO+GAL+BDS",
         "network": "RAMSAC",
         "country": "ARG",
         "coordinates": "-35.78, -69.4",
@@ -2688,6 +2688,58 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PBCA-v3.0",
+        "identifier": "Bahia Blanca, Buenos Aires (PBCA-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-38.79, -62.27",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.27,
+          -38.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PBCA-v3.2",
+        "identifier": "Bahia Blanca, Buenos Aires (PBCA-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1033(10),1074(1),1084(1),1094(1),1124(1),4091(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-38.79, -62.27",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.27,
+          -38.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "PEBA-v2.3",
         "identifier": "Pergamino, Buenos Aires (PEBA-v2.3)",
         "data_format": "RTCM 2.3",
@@ -2916,6 +2968,32 @@
         "coordinates": [
           -56.86,
           -37.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PRCV-v3.0",
+        "identifier": "Cascavel, Parana (PRCV-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-30.25, -57.6",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.6,
+          -30.25
         ]
       }
     },
@@ -3260,32 +3338,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RIO2-v3.2",
-        "identifier": "Rio Grande, Tierra del Fuego (RIO2-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(1),1097(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-53.79, -67.75",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.75,
-          -53.79
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "RIO4-v3.0",
         "identifier": "Rio Cuarto, Cordoba (RIO4-v3.0)",
         "data_format": "RTCM 3.0",
@@ -3390,6 +3442,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RSAL-v3.0",
+        "identifier": "Alegrete, Rio Grande do Sul (RSAL-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-29.79, -55.77",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.77,
+          -29.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "RSAU-v3.2",
         "identifier": "Rincon de los Sauces, Neuquen (RSAU-v3.2)",
         "data_format": "RTCM 3.2",
@@ -3410,58 +3488,6 @@
         "coordinates": [
           -68.92,
           -37.38
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "RSCL-v3.0",
-        "identifier": "Cerro Largo, Rio Grande do Sul (RSCL-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-28.14, -54.75",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.75,
-          -28.14
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "RSCL-v3.2",
-        "identifier": "Cerro Largo, Rio Grande do Sul (RSCL-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(1),1097(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-28.14, -54.75",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.75,
-          -28.14
         ]
       }
     },
@@ -3852,6 +3878,32 @@
         "coordinates": [
           -64.27,
           -36.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUAR-v3.0",
+        "identifier": "Coronel Suarez, Buenos Aires (SUAR-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10),4091(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-37.45, -61.92",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.92,
+          -37.45
         ]
       }
     },
@@ -4606,32 +4658,6 @@
         "coordinates": [
           -68.57,
           -31.53
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "UYBU-v3.0",
-        "identifier": "Bella Union, Artigas (UYBU-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-30.25, -57.6",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.6,
-          -30.25
         ]
       }
     },
