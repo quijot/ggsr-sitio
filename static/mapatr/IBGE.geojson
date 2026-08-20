@@ -10,6 +10,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "SSRA02IGS0_SIRGAS2000",
+        "identifier": "RTCM-SSR APC SIRGAS2000",
+        "data_format": "RTCM 3.1",
+        "format_details": "1057(60),1058(10),1063(60),1064(10),1240(60),1241(10)",
+        "carrier": "No info",
+        "nav_system": "GPS+GLO+GAL",
+        "network": "MISC",
+        "country": "DEU",
+        "coordinates": "50.09, 8.66",
+        "solution": "network",
+        "misc": "IGS Combination SIRGAS2000 (o mesmo que SIRGAS200001)",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.66,
+          50.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "SSRA03IGS0_SIRGAS2000",
         "identifier": "RTCM-SSR APC SIRGAS2000",
         "data_format": "RTCM 3.1",
@@ -1570,32 +1596,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "ILHA0",
-        "identifier": "Ilha Solteira",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-20.43, -51.34",
-        "solution": "single base",
-        "misc": "RBMC-ILHA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.34,
-          -20.43
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "IMPZ0",
         "identifier": "Imperatriz",
         "data_format": "RTCM 3.2",
@@ -2032,6 +2032,32 @@
         "coordinates": [
           -52.31,
           -15.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MTLA0",
+        "identifier": "Pontes e Lacerda",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.23, -59.35",
+        "solution": "single base",
+        "misc": "RBMC-MTLA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.35,
+          -15.23
         ]
       }
     },
@@ -2948,6 +2974,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RSPE0",
+        "identifier": "Pelotas",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-31.8, -52.42",
+        "solution": "single base",
+        "misc": "RBMC-RSPE",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.42,
+          -31.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "RSPF0",
         "identifier": "Passo Fundo",
         "data_format": "RTCM 3.2",
@@ -3072,32 +3124,6 @@
         "coordinates": [
           -38.43,
           -12.94
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SCAQ0",
-        "identifier": "Araquari",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-26.39, -48.74",
-        "solution": "single base",
-        "misc": "RBMC-SCAQ",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.74,
-          -26.39
         ]
       }
     },
