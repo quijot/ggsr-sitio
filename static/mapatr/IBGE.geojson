@@ -634,32 +634,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PAAR1",
-        "identifier": "Altamira - UFPA",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-3.21, -52.21",
-        "solution": "single base",
-        "misc": "RBMC-PAAR",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.21,
-          -3.21
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "UFPR1",
         "identifier": "Curitiba",
         "data_format": "RTCM 3.0",
@@ -914,6 +888,32 @@
         "coordinates": [
           -51.17,
           -0.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BABJ0",
+        "identifier": "Bom Jesus da Lapa - IF Baiano",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-13.26, -43.55",
+        "solution": "single base",
+        "misc": "RBMC-BABJ",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.55,
+          -13.26
         ]
       }
     },
@@ -1258,32 +1258,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CORU0",
-        "identifier": "Corumba - UFMS",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-19.0, -57.63",
-        "solution": "single base",
-        "misc": "RBMC-CORU",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.63,
-          -19.0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "CRAT0",
         "identifier": "Crato",
         "data_format": "RTCM 3.0",
@@ -1330,32 +1304,6 @@
         "coordinates": [
           -56.07,
           -15.56
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "EACH0",
-        "identifier": "Sao Paulo - USP Leste",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-23.48, -46.5",
-        "solution": "single base",
-        "misc": "RBMC-EACH",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -46.5,
-          -23.48
         ]
       }
     },
@@ -2032,32 +1980,6 @@
         "coordinates": [
           -43.22,
           -22.9
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "PAAR0",
-        "identifier": "Altamira - UFPA",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-3.21, -52.21",
-        "solution": "single base",
-        "misc": "RBMC-PAAR",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.21,
-          -3.21
         ]
       }
     },
@@ -3442,32 +3364,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "SPS10",
-        "identifier": "Sorocaba - UNESP",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-23.48, -47.42",
-        "solution": "single base",
-        "misc": "RBMC-SPS1",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -47.42,
-          -23.48
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "SPTU0",
         "identifier": "Tupa",
         "data_format": "RTCM 3.2",
@@ -3488,6 +3384,32 @@
         "coordinates": [
           -50.49,
           -21.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SSA10",
+        "identifier": "Salvador(Maregrafo)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-12.98, -38.52",
+        "solution": "single base",
+        "misc": "RBMC-SSA1",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.52,
+          -12.98
         ]
       }
     },
