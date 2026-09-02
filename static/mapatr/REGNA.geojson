@@ -1916,7 +1916,7 @@
         "nav_system": "GPS+GLO+GAL+BDS",
         "network": "",
         "country": "",
-        "coordinates": "-30.9, -55.56",
+        "coordinates": "-33.24, -54.38",
         "solution": "network",
         "misc": "",
         "color": "LightSkyBlue",
@@ -1926,8 +1926,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.56,
-          -30.9
+          -54.38,
+          -33.24
         ]
       }
     },
@@ -2500,6 +2500,58 @@
         "coordinates": [
           -54.21,
           -32.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VRS-Sureste",
+        "identifier": "VRS-Sureste",
+        "data_format": "RTCM 3",
+        "format_details": "",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "",
+        "country": "",
+        "coordinates": "-34.0, -53.55",
+        "solution": "network",
+        "misc": "",
+        "color": "LightSkyBlue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.55,
+          -34.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VRS-RTCM3X-(MSM5)",
+        "identifier": "VRS-RTCM3X-(MSM5)",
+        "data_format": "RTCM 3",
+        "format_details": "",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "",
+        "country": "",
+        "coordinates": "-34.0, -53.55",
+        "solution": "network",
+        "misc": "",
+        "color": "LightSkyBlue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.55,
+          -34.0
         ]
       }
     }
