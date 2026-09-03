@@ -374,32 +374,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "POVE1",
-        "identifier": "Porto Velho",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-8.71, -63.9",
-        "solution": "single base",
-        "misc": "RBMC-POVE",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.9,
-          -8.71
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "PPTE1",
         "identifier": "Presidente Prudente",
         "data_format": "RTCM 3.0",
@@ -920,32 +894,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APMA0",
-        "identifier": "Macapa - DTCEA",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "0.05, -51.1",
-        "solution": "single base",
-        "misc": "RBMC-APMA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.1,
-          0.05
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "APS10",
         "identifier": "Santana - Docas",
         "data_format": "RTCM 3.3",
@@ -1180,17 +1128,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "BOAV0",
-        "identifier": "Boa Vista",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "name": "BEPA0",
+        "identifier": "Belem - INPE",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "nav_system": "GPS+GLO",
         "network": "RBMC-IP",
         "country": "BRA",
-        "coordinates": "2.85, -60.7",
+        "coordinates": "-1.46, -48.44",
         "solution": "single base",
-        "misc": "RBMC-BOAV",
+        "misc": "RBMC-BEPA",
         "color": "green",
         "align": "left",
         "bline": "baseline"
@@ -1198,8 +1146,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.7,
-          2.85
+          -48.44,
+          -1.46
         ]
       }
     },
@@ -2422,32 +2370,6 @@
         "coordinates": [
           -46.73,
           -23.56
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "POVE0",
-        "identifier": "Porto Velho",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-8.71, -63.9",
-        "solution": "single base",
-        "misc": "RBMC-POVE",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.9,
-          -8.71
         ]
       }
     },
