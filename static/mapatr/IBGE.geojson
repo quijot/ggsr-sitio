@@ -478,32 +478,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RJNI1",
-        "identifier": "Niteroi UFF",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-22.91, -43.13",
-        "solution": "single base",
-        "misc": "RBMC-RJNI",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.13,
-          -22.91
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "SCCH1",
         "identifier": "Chapeco",
         "data_format": "RTCM 3.0",
@@ -634,32 +608,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PAAR1",
-        "identifier": "Altamira - UFPA",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-3.21, -52.21",
-        "solution": "single base",
-        "misc": "RBMC-PAAR",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.21,
-          -3.21
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "UFPR1",
         "identifier": "Curitiba",
         "data_format": "RTCM 3.0",
@@ -706,32 +654,6 @@
         "coordinates": [
           -35.21,
           -5.84
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "VICO1",
-        "identifier": "Vicosa",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-20.76, -42.87",
-        "solution": "single base",
-        "misc": "RBMC-VICO",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.87,
-          -20.76
         ]
       }
     },
@@ -1076,32 +998,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "BAIT0",
-        "identifier": "Itaberaba",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-12.52, -40.29",
-        "solution": "single base",
-        "misc": "RBMC-BAIT",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -40.29,
-          -12.52
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "BAPA0",
         "identifier": "Paulo Afonso",
         "data_format": "RTCM 3.2",
@@ -1122,32 +1018,6 @@
         "coordinates": [
           -38.22,
           -9.39
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BATF0",
-        "identifier": "Teixeira de Freitas",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-17.55, -39.74",
-        "solution": "single base",
-        "misc": "RBMC-BATF",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -39.74,
-          -17.55
         ]
       }
     },
@@ -1408,32 +1278,6 @@
         "coordinates": [
           -56.07,
           -15.56
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "EACH0",
-        "identifier": "Sao Paulo - USP Leste",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-23.48, -46.5",
-        "solution": "single base",
-        "misc": "RBMC-EACH",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -46.5,
-          -23.48
         ]
       }
     },
@@ -2090,32 +1934,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "MTLA0",
-        "identifier": "Pontes e Lacerda",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-15.23, -59.35",
-        "solution": "single base",
-        "misc": "RBMC-MTLA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.35,
-          -15.23
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "NEIA0",
         "identifier": "Cananeia",
         "data_format": "RTCM 3.2",
@@ -2162,32 +1980,6 @@
         "coordinates": [
           -43.22,
           -22.9
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "PAAR0",
-        "identifier": "Altamira - UFPA",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-3.21, -52.21",
-        "solution": "single base",
-        "misc": "RBMC-PAAR",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.21,
-          -3.21
         ]
       }
     },
@@ -2708,32 +2500,6 @@
         "coordinates": [
           -42.54,
           -22.29
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "RJNI0",
-        "identifier": "Niteroi UFF",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-22.91, -43.13",
-        "solution": "single base",
-        "misc": "RBMC-RJNI",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.13,
-          -22.91
         ]
       }
     },
@@ -3572,6 +3338,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "SSA10",
+        "identifier": "Salvador(Maregrafo)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-12.98, -38.52",
+        "solution": "single base",
+        "misc": "RBMC-SSA1",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.52,
+          -12.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "STHA0",
         "identifier": "Sta Helena - Agnaldo Fernandes",
         "data_format": "RTCM 3.2",
@@ -3670,32 +3462,6 @@
         "coordinates": [
           -49.23,
           -25.45
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "VICO0",
-        "identifier": "Vicosa",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-20.76, -42.87",
-        "solution": "single base",
-        "misc": "RBMC-VICO",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.87,
-          -20.76
         ]
       }
     }
