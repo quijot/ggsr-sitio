@@ -478,6 +478,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RJNI1",
+        "identifier": "Niteroi UFF",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-22.91, -43.13",
+        "solution": "single base",
+        "misc": "RBMC-RJNI",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.13,
+          -22.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "SCCH1",
         "identifier": "Chapeco",
         "data_format": "RTCM 3.0",
@@ -660,6 +686,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "VICO1",
+        "identifier": "Vicosa",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-20.76, -42.87",
+        "solution": "single base",
+        "misc": "RBMC-VICO",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.87,
+          -20.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "ALAR0",
         "identifier": "Arapiraca",
         "data_format": "RTCM 3.0",
@@ -758,32 +810,6 @@
         "coordinates": [
           -56.75,
           -2.65
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "AMTE0",
-        "identifier": "Tefe",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-3.35, -64.71",
-        "solution": "single base",
-        "misc": "RBMC-AMTE",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.71,
-          -3.35
         ]
       }
     },
@@ -1018,6 +1044,32 @@
         "coordinates": [
           -38.22,
           -9.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BATF0",
+        "identifier": "Teixeira de Freitas",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-17.55, -39.74",
+        "solution": "single base",
+        "misc": "RBMC-BATF",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.74,
+          -17.55
         ]
       }
     },
@@ -2506,6 +2558,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RJNI0",
+        "identifier": "Niteroi UFF",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-22.91, -43.13",
+        "solution": "single base",
+        "misc": "RBMC-RJNI",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.13,
+          -22.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "RJVA0",
         "identifier": "Obs. Nac. Vassouras",
         "data_format": "RTCM 3.0",
@@ -2838,32 +2916,6 @@
         "coordinates": [
           -38.43,
           -12.94
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SCAQ0",
-        "identifier": "Araquari",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-26.39, -48.74",
-        "solution": "single base",
-        "misc": "RBMC-SCAQ",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.74,
-          -26.39
         ]
       }
     },
@@ -3462,6 +3514,32 @@
         "coordinates": [
           -49.23,
           -25.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VICO0",
+        "identifier": "Vicosa",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-20.76, -42.87",
+        "solution": "single base",
+        "misc": "RBMC-VICO",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.87,
+          -20.76
         ]
       }
     }

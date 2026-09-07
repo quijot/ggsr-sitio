@@ -6224,32 +6224,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PADO00ITA0",
-        "identifier": "Padova",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(1),1019,1020,1033(1),1042,1045,1046,1077(1),1087(1),1097(1),1127(1),1230(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS",
-        "network": "IGS",
-        "country": "ITA",
-        "coordinates": "45.41, 11.9",
-        "solution": "single base",
-        "misc": "147.162.229.56:2101/PADO00ITA(1)",
-        "color": "red",
-        "align": "left",
-        "bline": "middle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.9,
-          45.41
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "PALM00ATA0",
         "identifier": "Palmer Station",
         "data_format": "RTCM 3.2",
