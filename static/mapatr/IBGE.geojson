@@ -1154,32 +1154,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "BEPA0",
-        "identifier": "Belem - INPE",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-1.46, -48.44",
-        "solution": "single base",
-        "misc": "RBMC-BEPA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.44,
-          -1.46
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "BOAV0",
         "identifier": "Boa Vista",
         "data_format": "RTCM 3.2",
@@ -2324,32 +2298,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PISR0",
-        "identifier": "Sao Raimundo Nonato",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1011(1),1013(60),1019(15),1020(15),1033(15)",
-        "carrier": "L2",
-        "nav_system": "GPS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-9.03, -42.7",
-        "solution": "single base",
-        "misc": "RBMC-PISR",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.7,
-          -9.03
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "POAL0",
         "identifier": "Porto Alegre",
         "data_format": "RTCM 3.3",
@@ -3072,32 +3020,6 @@
         "coordinates": [
           -49.33,
           -28.68
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SCFL0",
-        "identifier": "Florianopolis",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-27.6, -48.52",
-        "solution": "single base",
-        "misc": "RBMC-SCFL",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.52,
-          -27.6
         ]
       }
     },
