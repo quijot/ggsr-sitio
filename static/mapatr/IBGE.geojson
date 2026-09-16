@@ -634,6 +634,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PAAR1",
+        "identifier": "Altamira - UFPA",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-3.21, -52.21",
+        "solution": "single base",
+        "misc": "RBMC-PAAR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.21,
+          -3.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "UFPR1",
         "identifier": "Curitiba",
         "data_format": "RTCM 3.0",
@@ -1044,32 +1070,6 @@
         "coordinates": [
           -39.17,
           -14.8
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BAIT0",
-        "identifier": "Itaberaba",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-12.52, -40.29",
-        "solution": "single base",
-        "misc": "RBMC-BAIT",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -40.29,
-          -12.52
         ]
       }
     },
@@ -1674,32 +1674,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "MABA0",
-        "identifier": "Maraba",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-5.36, -49.12",
-        "solution": "single base",
-        "misc": "RBMC-MABA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -49.12,
-          -5.36
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "MABB0",
         "identifier": "Bacabal",
         "data_format": "RTCM 3.3",
@@ -1908,6 +1882,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "MGRP0",
+        "identifier": "Rio Paranaiba",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-19.21, -46.13",
+        "solution": "single base",
+        "misc": "RBMC-MGRP",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.13,
+          -19.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "MGUB0",
         "identifier": "Uberlandia",
         "data_format": "RTCM 3.2",
@@ -2084,6 +2084,32 @@
         "coordinates": [
           -43.22,
           -22.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PAAR0",
+        "identifier": "Altamira - UFPA",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-3.21, -52.21",
+        "solution": "single base",
+        "misc": "RBMC-PAAR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.21,
+          -3.21
         ]
       }
     },

@@ -504,6 +504,58 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BELG-v3.0",
+        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-77.87, -34.63",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.63,
+          -77.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BELG-v3.2",
+        "identifier": "Base Belgrano, Tierra del Fuego, Antártida e Islas del Atlántico Sur (BELG-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1013(10),1019(10),1020(10),1033(10),1077(1),1087(1),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-77.87, -34.63",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.63,
+          -77.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "BOLS-v3.0",
         "identifier": "El Bolson, Rio Negro (BOLS-v3.0)",
         "data_format": "RTCM 3.0",
@@ -2194,58 +2246,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "JVCH-v3.0",
-        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-27.0, -64.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.68,
-          -27.0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "JVCH-v3.2",
-        "identifier": "Estancia Javicho, Santiago del Estero (JVCH-v3.2)",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(10),1008(10),1033(10),1074(1),1084(1),1094(1),1124(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-27.0, -64.68",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.68,
-          -27.0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "JVGO-v3.0",
         "identifier": "Joaquin V Gonzalez, Salta (JVGO-v3.0)",
         "data_format": "RTCM 3.0",
@@ -2640,6 +2640,32 @@
         "identifier": "Malargue, Mendoza (MGUE-v3.0)",
         "data_format": "RTCM 3.0",
         "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-35.78, -69.4",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4,
+          -35.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGUE-v3.2",
+        "identifier": "Malargue, Mendoza (MGUE-v3.2)",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(10),1008(10),1033(10),1077(1),1087(10),1097(10),1127(10)",
         "carrier": "L2",
         "nav_system": "GPS+GLO",
         "network": "RAMSAC",
@@ -3572,32 +3598,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "PRCV-v3.0",
-        "identifier": "Cascavel, Parana (PRCV-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-30.25, -57.6",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.6,
-          -30.25
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "PRNA-v3.0",
         "identifier": "Parana, Entre Rios (PRNA-v3.0)",
         "data_format": "RTCM 3.0",
@@ -4222,32 +4222,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RSAL-v3.0",
-        "identifier": "Alegrete, Rio Grande do Sul (RSAL-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-29.79, -55.77",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.77,
-          -29.79
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "RSAU-v3.2",
         "identifier": "Rincon de los Sauces, Neuquen (RSAU-v3.2)",
         "data_format": "RTCM 3.2",
@@ -4268,32 +4242,6 @@
         "coordinates": [
           -68.92,
           -37.38
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "RSCL-v3.0",
-        "identifier": "Cerro Largo, Rio Grande do Sul (RSCL-v3.0)",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RAMSAC",
-        "country": "ARG",
-        "coordinates": "-28.14, -54.75",
-        "solution": "single base",
-        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
-        "color": "blue",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.75,
-          -28.14
         ]
       }
     },
@@ -4580,6 +4528,32 @@
         "coordinates": [
           -60.6,
           -30.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SL01-v3.0",
+        "identifier": "San Luis, San Luis (SL01-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10),1230(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-33.15, -66.3",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)-SIRGAS",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3,
+          -33.15
         ]
       }
     },
@@ -5542,6 +5516,32 @@
         "coordinates": [
           -68.57,
           -31.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UYBU-v3.0",
+        "identifier": "Bella Union, Artigas (UYBU-v3.0)",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(10),1008(10),1012(1),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RAMSAC",
+        "country": "ARG",
+        "coordinates": "-30.25, -57.6",
+        "solution": "single base",
+        "misc": "Marco POSGAR07-ITRF2005(2006.632)",
+        "color": "blue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.6,
+          -30.25
         ]
       }
     },
