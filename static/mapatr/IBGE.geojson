@@ -712,6 +712,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BAVC1",
+        "identifier": "Vitoria da Conquista",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-14.89, -40.8",
+        "solution": "single base",
+        "misc": "RBMC-BAVC",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.8,
+          -14.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "ALAR0",
         "identifier": "Arapiraca",
         "data_format": "RTCM 3.0",
@@ -758,32 +784,6 @@
         "coordinates": [
           -35.83,
           -9.47
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "AMCR0",
-        "identifier": "Coari - IBGE",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-4.09, -63.14",
-        "solution": "single base",
-        "misc": "RBMC-AMCR",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.14,
-          -4.09
         ]
       }
     },
@@ -1102,6 +1102,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BAVC0",
+        "identifier": "Vitoria da Conquista",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-14.89, -40.8",
+        "solution": "single base",
+        "misc": "RBMC-BAVC",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.8,
+          -14.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "BELE0",
         "identifier": "Belem",
         "data_format": "RTCM 3.0",
@@ -1304,32 +1330,6 @@
         "coordinates": [
           -57.63,
           -19.0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "CRAT0",
-        "identifier": "Crato",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-7.24, -39.42",
-        "solution": "single base",
-        "misc": "RBMC-CRAT",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -39.42,
-          -7.24
         ]
       }
     },
@@ -1642,6 +1642,32 @@
         "coordinates": [
           -54.59,
           -25.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MABA0",
+        "identifier": "Maraba",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-5.36, -49.12",
+        "solution": "single base",
+        "misc": "RBMC-MABA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.12,
+          -5.36
         ]
       }
     },
@@ -2012,6 +2038,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "MTLA0",
+        "identifier": "Pontes e Lacerda",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.23, -59.35",
+        "solution": "single base",
+        "misc": "RBMC-MTLA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.35,
+          -15.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "NEIA0",
         "identifier": "Cananeia",
         "data_format": "RTCM 3.2",
@@ -2318,32 +2370,6 @@
         "coordinates": [
           -43.04,
           -6.79
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "PISR0",
-        "identifier": "Sao Raimundo Nonato",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1011(1),1013(60),1019(15),1020(15),1033(15)",
-        "carrier": "L2",
-        "nav_system": "GPS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-9.03, -42.7",
-        "solution": "single base",
-        "misc": "RBMC-PISR",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.7,
-          -9.03
         ]
       }
     },
@@ -2688,6 +2714,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RNPF0",
+        "identifier": "Pau dos Ferros",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-6.13, -38.21",
+        "solution": "single base",
+        "misc": "RBMC-RNPF",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.21,
+          -6.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "ROCO0",
         "identifier": "Colorado do Oeste - IFRO",
         "data_format": "RTCM 3.0",
@@ -2942,6 +2994,32 @@
         "coordinates": [
           -48.74,
           -26.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SCBL0",
+        "identifier": "Blumenau",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-26.88, -49.14",
+        "solution": "single base",
+        "misc": "RBMC-SCBL",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.14,
+          -26.88
         ]
       }
     },
@@ -3228,32 +3306,6 @@
         "coordinates": [
           -47.06,
           -22.82
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SPFE0",
-        "identifier": "Fernandopolis",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-20.26, -50.23",
-        "solution": "single base",
-        "misc": "RBMC-SPFE",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -50.23,
-          -20.26
         ]
       }
     },
