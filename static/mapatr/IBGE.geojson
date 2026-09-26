@@ -1180,32 +1180,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "BEPA0",
-        "identifier": "Belem - INPE",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-1.46, -48.44",
-        "solution": "single base",
-        "misc": "RBMC-BEPA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.44,
-          -1.46
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "BOAV0",
         "identifier": "Boa Vista",
         "data_format": "RTCM 3.2",
@@ -1356,6 +1330,32 @@
         "coordinates": [
           -57.63,
           -19.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CRAT0",
+        "identifier": "Crato",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-7.24, -39.42",
+        "solution": "single base",
+        "misc": "RBMC-CRAT",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.42,
+          -7.24
         ]
       }
     },
@@ -2058,32 +2058,6 @@
         "coordinates": [
           -52.31,
           -15.88
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "MTLA0",
-        "identifier": "Pontes e Lacerda",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-15.23, -59.35",
-        "solution": "single base",
-        "misc": "RBMC-MTLA",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.35,
-          -15.23
         ]
       }
     },
@@ -2896,6 +2870,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RSPE0",
+        "identifier": "Pelotas",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-31.8, -52.42",
+        "solution": "single base",
+        "misc": "RBMC-RSPE",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.42,
+          -31.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "RSPF0",
         "identifier": "Passo Fundo",
         "data_format": "RTCM 3.2",
@@ -3514,6 +3514,32 @@
         "coordinates": [
           -49.84,
           -23.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SPS10",
+        "identifier": "Sorocaba - UNESP",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-23.48, -47.42",
+        "solution": "single base",
+        "misc": "RBMC-SPS1",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.42,
+          -23.48
         ]
       }
     },
