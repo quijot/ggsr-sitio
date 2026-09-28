@@ -6224,6 +6224,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PAD100ITA0",
+        "identifier": "Padova_Department of industrial engineering",
+        "data_format": "RTCM 3.0",
+        "format_details": "1003(1),1005(10)",
+        "carrier": "L2",
+        "nav_system": "GNSS",
+        "network": "IGS",
+        "country": "ITA",
+        "coordinates": "45.410985512, 11.892782527",
+        "solution": "single base",
+        "misc": "UPAD",
+        "color": "red",
+        "align": "left",
+        "bline": "middle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.892782527,
+          45.410985512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "PALM00ATA0",
         "identifier": "Palmer Station",
         "data_format": "RTCM 3.2",
