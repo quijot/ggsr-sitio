@@ -192,32 +192,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CUIB1",
-        "identifier": "Cuiaba",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-15.56, -56.07",
-        "solution": "single base",
-        "misc": "RBMC-CUIB",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.07,
-          -15.56
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "GOGY1",
         "identifier": "Goiania",
         "data_format": "RTCM 3.0",
@@ -1388,32 +1362,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CUIB0",
-        "identifier": "Cuiaba",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-15.56, -56.07",
-        "solution": "single base",
-        "misc": "RBMC-CUIB",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.07,
-          -15.56
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "EACH0",
         "identifier": "Sao Paulo - USP Leste",
         "data_format": "RTCM 3.0",
@@ -1434,6 +1382,32 @@
         "coordinates": [
           -46.5,
           -23.48
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EESC0",
+        "identifier": "Sao Carlos",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-22.0, -47.9",
+        "solution": "single base",
+        "misc": "RBMC-EESC",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.9,
+          -22.0
         ]
       }
     },
@@ -2058,6 +2032,32 @@
         "coordinates": [
           -52.31,
           -15.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MTLA0",
+        "identifier": "Pontes e Lacerda",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.23, -59.35",
+        "solution": "single base",
+        "misc": "RBMC-MTLA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.35,
+          -15.23
         ]
       }
     },
@@ -2844,17 +2844,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RSCL0",
-        "identifier": "Cerro Largo",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "name": "RSPE0",
+        "identifier": "Pelotas",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "nav_system": "GPS+GLO",
         "network": "RBMC-IP",
         "country": "BRA",
-        "coordinates": "-28.14, -54.75",
+        "coordinates": "-31.8, -52.42",
         "solution": "single base",
-        "misc": "RBMC-RSCL",
+        "misc": "RBMC-RSPE",
         "color": "green",
         "align": "left",
         "bline": "baseline"
@@ -2862,8 +2862,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.75,
-          -28.14
+          -52.42,
+          -31.8
         ]
       }
     },
@@ -3488,6 +3488,32 @@
         "coordinates": [
           -49.84,
           -23.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SPS10",
+        "identifier": "Sorocaba - UNESP",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-23.48, -47.42",
+        "solution": "single base",
+        "misc": "RBMC-SPS1",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.42,
+          -23.48
         ]
       }
     },
