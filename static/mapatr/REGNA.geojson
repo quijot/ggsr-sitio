@@ -2632,6 +2632,32 @@
           -31.87
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UYMA_ITRF20",
+        "identifier": "UYMA_ITRF20",
+        "data_format": "RTCM 3",
+        "format_details": "",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "",
+        "country": "",
+        "coordinates": "-34.86, -55.09",
+        "solution": "single base",
+        "misc": "",
+        "color": "LightSkyBlue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.09,
+          -34.86
+        ]
+      }
     }
   ]
 }
