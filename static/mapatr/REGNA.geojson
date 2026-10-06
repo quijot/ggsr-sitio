@@ -2636,15 +2636,41 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "UYMA_ITRF20",
-        "identifier": "UYMA_ITRF20",
+        "name": "VRS-MSM5-ITRF20",
+        "identifier": "VRS-MSM5-ITRF20",
         "data_format": "RTCM 3",
         "format_details": "",
         "carrier": "L2",
         "nav_system": "GPS+GLO+GAL+BDS",
         "network": "",
         "country": "",
-        "coordinates": "-34.86, -55.09",
+        "coordinates": "-33.24, -54.38",
+        "solution": "network",
+        "misc": "",
+        "color": "LightSkyBlue",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.38,
+          -33.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UYTT-GNSS-ITRF20",
+        "identifier": "UYTT-GNSS-ITRF20",
+        "data_format": "RTCM 3",
+        "format_details": "",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS",
+        "network": "",
+        "country": "",
+        "coordinates": "-33.24, -54.38",
         "solution": "single base",
         "misc": "",
         "color": "LightSkyBlue",
@@ -2654,8 +2680,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.09,
-          -34.86
+          -54.38,
+          -33.24
         ]
       }
     }
