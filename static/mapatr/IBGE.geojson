@@ -738,32 +738,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "VICO1",
-        "identifier": "Vicosa",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-20.76, -42.87",
-        "solution": "single base",
-        "misc": "RBMC-VICO",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.87,
-          -20.76
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "ALAR0",
         "identifier": "Arapiraca",
         "data_format": "RTCM 3.0",
@@ -1596,32 +1570,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "IFSC0",
-        "identifier": "Florianopolis - IFSC",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-27.59, -48.54",
-        "solution": "single base",
-        "misc": "RBMC-IFSC",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.54,
-          -27.59
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "ILHA0",
         "identifier": "Ilha Solteira",
         "data_format": "RTCM 3.0",
@@ -1902,32 +1850,6 @@
         "coordinates": [
           -47.52,
           -18.72
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "MGRP0",
-        "identifier": "Rio Paranaiba",
-        "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-19.21, -46.13",
-        "solution": "single base",
-        "misc": "RBMC-MGRP",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -46.13,
-          -19.21
         ]
       }
     },
@@ -3696,32 +3618,6 @@
         "coordinates": [
           -49.23,
           -25.45
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "VICO0",
-        "identifier": "Vicosa",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-20.76, -42.87",
-        "solution": "single base",
-        "misc": "RBMC-VICO",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.87,
-          -20.76
         ]
       }
     }
