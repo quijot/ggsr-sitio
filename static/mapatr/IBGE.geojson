@@ -218,6 +218,58 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "GOGY1",
+        "identifier": "Goiania",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-16.66, -49.25",
+        "solution": "single base",
+        "misc": "RBMC-GOGY",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.25,
+          -16.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGLA1",
+        "identifier": "Lavras",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-21.23, -44.97",
+        "solution": "single base",
+        "misc": "RBMC-MGLA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.97,
+          -21.23
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "MTGA1",
         "identifier": "Barra do Garcas - UFMT",
         "data_format": "RTCM 3.0",
@@ -478,6 +530,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "SCCR1",
+        "identifier": "Criciuma",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-28.68, -49.33",
+        "solution": "single base",
+        "misc": "RBMC-SCCR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.33,
+          -28.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "SCIM1",
         "identifier": "Imbituba - Porto",
         "data_format": "RTCM 3.0",
@@ -634,17 +712,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "BAVC1",
-        "identifier": "Vitoria da Conquista",
+        "name": "VICO1",
+        "identifier": "Vicosa",
         "data_format": "RTCM 3.0",
-        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(1),1019(15),1020(15),1033(10)",
         "carrier": "L2",
         "nav_system": "GPS+GLO",
         "network": "RBMC-IP",
         "country": "BRA",
-        "coordinates": "-14.89, -40.8",
+        "coordinates": "-20.76, -42.87",
         "solution": "single base",
-        "misc": "RBMC-BAVC",
+        "misc": "RBMC-VICO",
         "color": "green",
         "align": "left",
         "bline": "baseline"
@@ -652,8 +730,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -40.8,
-          -14.89
+          -42.87,
+          -20.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ALAR0",
+        "identifier": "Arapiraca",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-9.75, -36.65",
+        "solution": "single base",
+        "misc": "RBMC-ALAR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.65,
+          -9.75
         ]
       }
     },
@@ -842,6 +946,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BABR0",
+        "identifier": "Barreiras",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-12.15, -44.99",
+        "solution": "single base",
+        "misc": "RBMC-BABR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.99,
+          -12.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "BAIC0",
         "identifier": "Irece - IFBA",
         "data_format": "RTCM 3.2",
@@ -894,6 +1024,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "BAIT0",
+        "identifier": "Itaberaba",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-12.52, -40.29",
+        "solution": "single base",
+        "misc": "RBMC-BAIT",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.29,
+          -12.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "BAPA0",
         "identifier": "Paulo Afonso",
         "data_format": "RTCM 3.2",
@@ -914,32 +1070,6 @@
         "coordinates": [
           -38.22,
           -9.39
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BAVC0",
-        "identifier": "Vitoria da Conquista",
-        "data_format": "RTCM 3.3",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
-        "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
-        "network": "RBMC-IP",
-        "country": "BRA",
-        "coordinates": "-14.89, -40.8",
-        "solution": "single base",
-        "misc": "RBMC-BAVC",
-        "color": "green",
-        "align": "left",
-        "bline": "baseline"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -40.8,
-          -14.89
         ]
       }
     },
@@ -1102,17 +1232,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CORU0",
-        "identifier": "Corumba - UFMS",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "name": "CESB0",
+        "identifier": "Sobral",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "nav_system": "GPS+GLO",
         "network": "RBMC-IP",
         "country": "BRA",
-        "coordinates": "-19.0, -57.63",
+        "coordinates": "-3.68, -40.34",
         "solution": "single base",
-        "misc": "RBMC-CORU",
+        "misc": "RBMC-CESB",
         "color": "green",
         "align": "left",
         "bline": "baseline"
@@ -1120,8 +1250,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.63,
-          -19.0
+          -40.34,
+          -3.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CRAT0",
+        "identifier": "Crato",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-7.24, -39.42",
+        "solution": "single base",
+        "misc": "RBMC-CRAT",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.42,
+          -7.24
         ]
       }
     },
@@ -1518,6 +1674,84 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "MGIN0",
+        "identifier": "Inconfidentes",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-22.32, -46.33",
+        "solution": "single base",
+        "misc": "RBMC-MGIN",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.33,
+          -22.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGJA0",
+        "identifier": "Januaria",
+        "data_format": "RTCM 3.3",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.45, -44.37",
+        "solution": "single base",
+        "misc": "RBMC-MGJA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.37,
+          -15.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MGJP0",
+        "identifier": "Belo Horizonte - FJP",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-19.85, -43.97",
+        "solution": "single base",
+        "misc": "RBMC-MGJP",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.97,
+          -19.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "MGLA0",
         "identifier": "Lavras",
         "data_format": "RTCM 3.2",
@@ -1674,6 +1908,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "MSGR0",
+        "identifier": "Campo Grande/Embrapa",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-20.45, -54.72",
+        "solution": "single base",
+        "misc": "RBMC-MSGR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.72,
+          -20.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "MTCA0",
         "identifier": "Caceres",
         "data_format": "RTCM 3.2",
@@ -1720,6 +1980,58 @@
         "coordinates": [
           -52.31,
           -15.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MTJI0",
+        "identifier": "Juina - IFMT",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-11.45, -58.72",
+        "solution": "single base",
+        "misc": "RBMC-MTJI",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.72,
+          -11.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MTLA0",
+        "identifier": "Pontes e Lacerda",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-15.23, -59.35",
+        "solution": "single base",
+        "misc": "RBMC-MTLA",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.35,
+          -15.23
         ]
       }
     },
@@ -1960,6 +2272,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PEAF0",
+        "identifier": "Afogados da Ingazeira",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-7.76, -37.63",
+        "solution": "single base",
+        "misc": "RBMC-PEAF",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.63,
+          -7.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "PECA0",
         "identifier": "Caruaru - UFPE",
         "data_format": "RTCM 3.2",
@@ -2058,6 +2396,32 @@
         "coordinates": [
           -43.04,
           -6.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PISR0",
+        "identifier": "Sao Raimundo Nonato",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1011(1),1013(60),1019(15),1020(15),1033(15)",
+        "carrier": "L2",
+        "nav_system": "GPS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-9.03, -42.7",
+        "solution": "single base",
+        "misc": "RBMC-PISR",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.7,
+          -9.03
         ]
       }
     },
@@ -2532,6 +2896,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RSPE0",
+        "identifier": "Pelotas",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-31.8, -52.42",
+        "solution": "single base",
+        "misc": "RBMC-RSPE",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.42,
+          -31.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "RSPF0",
         "identifier": "Passo Fundo",
         "data_format": "RTCM 3.2",
@@ -2864,6 +3254,32 @@
         "coordinates": [
           -50.3,
           -27.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SEAJ0",
+        "identifier": "Aracaju",
+        "data_format": "RTCM 3.2",
+        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "carrier": "L2",
+        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "network": "RBMC-IP",
+        "country": "BRA",
+        "coordinates": "-10.93, -37.1",
+        "solution": "single base",
+        "misc": "RBMC-SEAJ",
+        "color": "green",
+        "align": "left",
+        "bline": "baseline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.1,
+          -10.93
         ]
       }
     },
