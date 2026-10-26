@@ -1258,17 +1258,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CORU0",
-        "identifier": "Corumba - UFMS",
-        "data_format": "RTCM 3.2",
-        "format_details": "1006(1),1008(10),1019(15),1020(15),1033(10),1042(10),1045(10),1077(1),1087(1),1097(1),1107(1),1127(1)",
+        "name": "CRAT0",
+        "identifier": "Crato",
+        "data_format": "RTCM 3.0",
+        "format_details": "1004(1),1006(1),1008(10),1012(1),1013(10),1019(10),1020(10),1033(10)",
         "carrier": "L2",
-        "nav_system": "GPS+GLO+GAL+BDS+SBAS",
+        "nav_system": "GPS+GLO",
         "network": "RBMC-IP",
         "country": "BRA",
-        "coordinates": "-19.0, -57.63",
+        "coordinates": "-7.24, -39.42",
         "solution": "single base",
-        "misc": "RBMC-CORU",
+        "misc": "RBMC-CRAT",
         "color": "green",
         "align": "left",
         "bline": "baseline"
@@ -1276,8 +1276,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.63,
-          -19.0
+          -39.42,
+          -7.24
         ]
       }
     },
