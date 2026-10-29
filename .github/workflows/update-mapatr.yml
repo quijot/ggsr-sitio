@@ -2,7 +2,7 @@ name: Actualizar GeoJSON del mapa NTRIP
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # 06:00 UTC diario (03:00 ART)
+    - cron: '0 6 1 1 *'  # 06:00 UTC diario (03:00 ART)
   workflow_dispatch:      # ejecución manual desde GitHub Actions
 
 permissions:
